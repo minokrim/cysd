@@ -1,0 +1,106 @@
+.formBody{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.subject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; 
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+}
+.message p{
+    text-align: left;
+    width: 900px;
+}
+input{
+    border: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+input:focus{
+    border: none;
+    outline: none;
+    font-family: "Roboto Light";
+    font-size: 17px;
+}
+p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    font-family: "Roboto Medium";
+}
+hr{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 400px;
+}
+textarea{
+    width: 900px;
+    height: 300px;
+    font-family: "Roboto Light";
+    font-size: 17px;
+}
+textarea:focus{
+    outline: 0.5px solid var(--primary-color);
+}
+.messageBtn{
+    width: 20%;
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:600px) {
+    .formBody{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .name{
+        gap: 50px;
+    }
+    .subject{
+        gap: 50px;
+    }
+    .message p{
+        width: 100%;
+        text-align: center;
+    }
+    hr{
+        width: 50%;
+    }
+    textarea{
+        width: 300px;
+    }
+    .messageBtn{
+        width: 40%;
+    }
+    input{
+        width: 100px;
+    }
+}
