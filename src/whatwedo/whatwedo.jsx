@@ -11,7 +11,6 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Contribute from "../components/contribute";
 import Project from "../components/projects";
-import cydmvideo from "../images/cydm.mp4"
 import Values from "../components/values";
 import Value from "../content/values";
 import Carousel from "react-multi-carousel";
@@ -65,7 +64,8 @@ export default function Whatwedo(){
         </section>
         <section className="documentary">
             <h2>What we do for the community</h2>
-            <video  src={cydmvideo}  controls poster={poster} className="documentaryVideo" allowFullScreen></video>
+            <iframe src="https://www.youtube.com/embed/xQ_-P_nrnxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="documentaryVideo" title="vid1"></iframe>
+            {/* <video  src={cydmvideo}  controls poster={poster} className="documentaryVideo" allowFullScreen></video> */}
             </section>
         <section className="whatwedo-services">
             <section className="service-section">
