@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cysd/static/css/main.c73687e1.css",
+    "main.css": "/cysd/static/css/main.3394ca10.css",
     "main.js": "/cysd/static/js/main.d1a4e885.js",
     "static/js/453.708e38c1.chunk.js": "/cysd/static/js/453.708e38c1.chunk.js",
     "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/cysd/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
@@ -70,12 +70,12 @@
     "static/media/justice.png": "/cysd/static/media/justice.0089c6ce7d4de82d731f.png",
     "static/media/revicons.woff": "/cysd/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cysd/index.html",
-    "main.c73687e1.css.map": "/cysd/static/css/main.c73687e1.css.map",
+    "main.3394ca10.css.map": "/cysd/static/css/main.3394ca10.css.map",
     "main.d1a4e885.js.map": "/cysd/static/js/main.d1a4e885.js.map",
     "453.708e38c1.chunk.js.map": "/cysd/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c73687e1.css",
+    "static/css/main.3394ca10.css",
     "static/js/main.d1a4e885.js"
   ]
 }
