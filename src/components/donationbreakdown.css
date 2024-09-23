@@ -108,14 +108,14 @@
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:660px) {
     .breakdownMain{
         display: flex;
         flex-direction: column;
     }
     .leftBreakdownSec{
         width: 90%;
-        padding-left: 10px;
+        padding-left: 20px;
     }
     .leftBreakdownSec h2{
         font-size: 45px;

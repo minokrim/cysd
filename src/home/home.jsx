@@ -12,12 +12,13 @@ import Footer from "../components/footer";
 import Project from "../components/projects";
 import "./home.css"
 import Typed from 'typed.js';
+import { Link } from "react-router-dom";
 export default function Body(){
     const el = React.useRef(null);
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Working to Prevent School Dropouts and Resolve Social Issues in Munyenge, Cameroon.'],
+      strings: ["CYSD",'Working to Prevent School Dropouts and Resolve Social Issues in Munyenge, Cameroon.'],
       typeSpeed: 100,
     });
 
@@ -31,7 +32,9 @@ export default function Body(){
         <Nav/>
         <section className="landingImage">
             <img src={landingImage8} alt="landing Image" />
+            <section className="descHolder">
             <h1 className="imageDesc"><span ref={el} /></h1>
+            </section>
             <section className="statsSection">
             <p>389 students under our care</p>
             <hr />
@@ -41,20 +44,20 @@ export default function Body(){
         <section className="aboutSection">
             <section className="aboutLeftSection">
             <div className="homeSectionTitle">
-                <h3 id="divider"></h3>
+                <div id="divider"></div>
                 <p>KNOW ABOUT US</p>
             </div>
             <h2>We Reduce School Dropouts & Tackle Social Issues in Munyenge, Cameroon.</h2>
             <p id="aboutDesc">Centre for Youth and Sustainable Development was founded in 2019 as a non-profit community-based organization. Our organization was founded to combat the high rate of secondary school dropout among young boys and girls in the Munyenge community. This alarming trend contributes to elevated rates of early pregnancy and childbearing among teenage girls, gender-based violence as well as increased susceptibility to drug abuse among young males.</p>
-            <button>Learn More</button>
+            <Link to="/about"><button>Learn More</button></Link>
             </section>
-            <img src={landingImage1} alt="image of students" className="homeSectionImages"/>
+            <img src={landingImage1} alt="group of students" className="homeSectionImages"/>
         </section>
         <section className="whatWeDoSection">
             <div className="whatWeDoLeftSection">
             <div className="homeSectionTitle">
-                <h3></h3>
-                <p>WHAT WE DO</p>
+            <div id="divider"></div>
+            <p>WHAT WE DO</p>
             </div>
             <h2>Some Services we provide for our students</h2>
             <p id="whatWeDoDesc">CYSD aims to break the cycle of educational inequality by addressing low reading proficiency in primary schools, the root cause of high secondary school dropout rates in Munyenge.</p>

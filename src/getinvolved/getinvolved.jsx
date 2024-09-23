@@ -5,6 +5,7 @@ import Nav from "../components/nav";
 import Children from "../components/children";
 import woman from "../images/woman2.png"
 import Contribute from "../components/contribute";
+import { Link } from "react-router-dom";
 export default function Getinvolved(){
     return <div>
         <Nav/>
@@ -12,10 +13,9 @@ export default function Getinvolved(){
         <div className="left-getinvolved-heading">
             <h1>Give a helping hand to those who need it!</h1>
             <p>At CYSD, we believe in the transformative power of collaboration. The Friendship Circle is our vibrant network, bringing together passionate individuals committed to sharing knowledge, learning from each other, and developing innovative solutions. By joining this dynamic community, you'll have the chance to exchange ideas, collaborate on meaningful projects, and drive impactful change towards a more sustainable future.</p>
-            <button>Join Friendship Circle</button>
         </div>
         <div className="right-getinvolved-heading">
-        <h2>Subscribe To Our NewsLetter</h2>
+        <h2>Join Friendship Circle</h2>
             <form action="">
                 <input type="text" name="" id="" placeholder="Name:-John Doe"/>
                 <input type="email" name="" id="" placeholder="Email:-example@email.com"/>
@@ -26,23 +26,23 @@ export default function Getinvolved(){
         <section className="program">
             <section className="program-card-holder1">
             <div className="program-card">
-                <h2>Friendship circle</h2>
-                <p>The Friendship Circle is a vibrant network of passionate individuals dedicated to sharing knowledge, learning, and developing innovative solutions.</p>
-                <button>Join circle</button>
+                <h2>Sponsor CYMD</h2>
+                <p>Sponsor CYMD to empower youth and foster sustainable development in their communities. Your support, helps create lasting opportunities.</p>
+                <Link to="/contact" target="_blank"><button>Sponsor CYMD</button></Link>
             </div>
             </section>
             <section className="program-card-holder2">
             <div className="program-card">
                 <h2>Sponsor a child</h2>
                 <p>Sponsor a child by supporting their education and offering hope for a brighter future. Every donation, big or small, makes a meaningful impact.</p>
-                <button>Sponsor a child</button>
+                <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeD725aq_VhtUonXlGERoTvJ9S6SWG_8BQNL0sDxhbt3wTwGQ/viewform" target="_blank"><button>Sponsor a child</button></Link>
             </div>
             </section>
             <section className="program-card-holder3">
             <div className="program-card">
                 <h2>Skill contribution</h2>
                 <p>Skill contribution lets you share your expertise to make a meaningful impact. Your talents help drive change, creating lasting improvements.</p>
-                <button>Contribute skill</button>
+                <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdEeg4zxa_lMGBWxqC_U7RPLS921YwVz1MF398ZC7Ws52Q3Gw/viewform" target="_blank"><button>Contribute skill</button></Link>
             </div>
             </section>
         </section>
@@ -86,7 +86,7 @@ export default function Getinvolved(){
             </div>
             </section>
             <Children/>
-            <button>Sponsor a Child</button>
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeD725aq_VhtUonXlGERoTvJ9S6SWG_8BQNL0sDxhbt3wTwGQ/viewform?usp=sf_link" target="_blank" className="sponsoraChild"><button >Sponsor a Child</button></Link>
         </section>
         <section className="skill">
             <h2>Skill contribution</h2>
@@ -96,40 +96,35 @@ export default function Getinvolved(){
                     <h2>Village and community</h2>
                     <p>Assist in organizing meetings with villagers to identify local problems.</p>
                     <p>Design action plans to resolve pressing issues affecting the community.</p>
-                    <button>Volunteer</button>
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdEeg4zxa_lMGBWxqC_U7RPLS921YwVz1MF398ZC7Ws52Q3Gw/viewform?usp=sf_link" target="_blank"><button>Volunteer</button></Link>
                 </div>
                 <div className="skill-card">
                     <h2>Computer Training</h2>
                     <p>Organize computer classes for children, including school and holiday sessions.</p>
                     <p>Provide computer application training for women and adults.</p>
-                    <button>Volunteer</button>
-                </div>
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdEeg4zxa_lMGBWxqC_U7RPLS921YwVz1MF398ZC7Ws52Q3Gw/viewform?usp=sf_link" target="_blank"><button>Volunteer</button></Link>                </div>
                 <div className="skill-card">
                     <h2>Human Rights Education</h2>
                     <p>Teach human rights in schools and communities.</p>
                     <p>Organize human rights educational and advocacy workshops.</p>
-                    <button>Volunteer</button>
-                </div>
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdEeg4zxa_lMGBWxqC_U7RPLS921YwVz1MF398ZC7Ws52Q3Gw/viewform?usp=sf_link" target="_blank"><button>Volunteer</button></Link>                </div>
                 <div className="skill-card">
                     <h2>Leadership & Governance Education</h2>
                     <p>Family Planning in Rural Villages and Schools</p>
                     <p>Work on family planning initiatives in rural areas</p>
-                    <button>Volunteer</button>
-                </div>
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdEeg4zxa_lMGBWxqC_U7RPLS921YwVz1MF398ZC7Ws52Q3Gw/viewform?usp=sf_link" target="_blank"><button>Volunteer</button></Link>                </div>
                 <div className="skill-card">
                     <h2>Fundraising & Grant Search</h2>
                     <p>Search for grants and funding sources to support CYSD’s various activities.</p>
                     <p>Identify donors for the sponsorship program.</p>
-                    <button>Volunteer</button>
-                </div>
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdEeg4zxa_lMGBWxqC_U7RPLS921YwVz1MF398ZC7Ws52Q3Gw/viewform?usp=sf_link" target="_blank"><button>Volunteer</button></Link>                </div>
                 <div className="skill-card">
                     <h2>Environmental Education</h2>
                     <p>Prepare materials and conduct lectures on key environmental management issues in schools</p>
                     <p>Organize workshops for students to engage them in learning about the environment</p>
-                    <button>Volunteer</button>
-                </div>
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdEeg4zxa_lMGBWxqC_U7RPLS921YwVz1MF398ZC7Ws52Q3Gw/viewform?usp=sf_link" target="_blank"><button>Volunteer</button></Link>                </div>
             </section>
-            <h4>If you are interested, please apply by filling out the CYSD-Cameroon-Volunteer-Application-form <span>here</span>. Your dedication and expertise will play a vital role in supporting our diverse range of initiatives. Thank you for considering joining the CYSD team!</h4>
+            <h4>If you are interested, please apply by filling out the CYSD-Cameroon-Volunteer-Application-form <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdEeg4zxa_lMGBWxqC_U7RPLS921YwVz1MF398ZC7Ws52Q3Gw/viewform?usp=sf_link" target="_blank"><span>Here</span></Link>. Your dedication and expertise will play a vital role in supporting our diverse range of initiatives. Thank you for considering joining the CYSD team!</h4>
         </section>
         <Contribute/>
         <Footer/>

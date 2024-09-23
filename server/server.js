@@ -42,7 +42,7 @@ app.post("/message/react",(req,res)=>{
         to:"cysdcameroon@gmail.com",
         subject:subject,
         replyTo: email,
-        text:`${firstname} ${lastname} says: ${message}`,
+        text: `Dear CYSD, \n\n${firstname} ${lastname} has sent the following message: \n\n${message} \n\nKind regards, \n${firstname} ${lastname}`,
     }
     transporter.sendMail(mailOptions, function (error, info) {
         if (error) {

@@ -8,7 +8,6 @@
     padding-bottom: 100px;
     background-color: var(--secondary-color);
     position: relative;
-    margin-top: -90px;
     height: 60vh;
 }
 .contactLeft{
@@ -49,10 +48,19 @@
     height: 30px;
 }
 
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:1040px) {
+    .contactBody{
+        padding-bottom: 150px;
+    }
+}
+
+
+@media screen and (max-width:660px) {
     .contactBody{
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 150px;
+        height: 100%;
     }
     .contactLeft{
         width: 90%;

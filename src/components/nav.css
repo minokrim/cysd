@@ -45,6 +45,8 @@
     display: flex;
     gap: 200px;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .navLogo img{
     width: auto;
@@ -80,6 +82,9 @@
     font-family: "Roboto Extra Bold";
     padding: 13px;
     border-radius: 10px;
+}
+.donatePc{
+    text-decoration: none;
 }
 .mobileNavOptions{
     display: none;

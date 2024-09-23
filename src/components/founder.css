@@ -67,10 +67,11 @@
     font-family: "Roboto Regular";
     text-align: left;
     margin-left: 20px;
+
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:660px) {
     .founderBody{
         padding: 0px 10px 50px 10px;
     }
@@ -82,6 +83,9 @@
     }
     .founder{
         flex-direction: column;
+    }
+    .founderAbout{
+        padding-left: 10px;
     }
     .founderAbout p{
         word-break: 100%;

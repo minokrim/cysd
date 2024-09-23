@@ -5,6 +5,11 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.formBody h1{
+    display: flex;
+    align-self: center;
+    color: var(--primary-color);
+}
 .name{
     display: flex;
     align-items: center;
@@ -71,11 +76,22 @@ textarea:focus{
     margin-top: 20px;
 }
 
-@media screen and (max-width:768px) {
-
+@media screen and (max-width:1040px) {
+    .formBody{
+        width: 100%;
+    }
+    hr{
+        width: 100%;
+    }
+    textarea{
+        width: 80%;
+    }
+    .message p{
+        width: 80%;
+    }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:660px) {
     .formBody{
         width: 100%;
         align-items: center;

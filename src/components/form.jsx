@@ -31,6 +31,7 @@ export default function Form(){
 
     return <div className="formMain">
         <form className="formBody" onSubmit={handleSubmit} >
+            <h1>Send us a Message!</h1>
             <div className="name">
                 <section>
                     <p>First Name</p>

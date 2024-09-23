@@ -23,7 +23,7 @@ export default function Nav(){
             <Link to="/contact" className="link">Contact</Link>
         </section>
         <section className="DonateIcon">
-            <p>Donate</p>
+            <Link to="https://www.paypal.com/ncp/payment/BHGJW67JLL8ZU" className="donatePc" target="_blank"><p>Donate</p></Link>
         </section>
         <img src={mobileNav?hamburger2:hamburger} alt="hamburger icon" id="hamburger" onClick={handleClick}/>
         </section>
@@ -34,7 +34,7 @@ export default function Nav(){
             <Link to="/whatwedo" className="Link">What We Do</Link>
             <Link to="/getinvolved" className="Link">Get Involved</Link>
             <Link to="/contact" className="Link">Contact</Link>
-            <p className="donate">Donate</p>
+            <Link to="https://www.paypal.com/ncp/payment/BHGJW67JLL8ZU" target="_blank" className="donatePc"><p className="donate">Donate</p></Link>
         </section>
         )}
     </div>

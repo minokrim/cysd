@@ -53,7 +53,7 @@ export default function Whatwedo(){
         <section className="whatwedo-heading">
             <section className="whatwedo-leftSection">
             <div className="homeSectionTitle">
-                <h3></h3>
+                <div></div>
                 <p>KNOW ABOUT US</p>
             </div>
         <h1>We are working across Munyege community</h1>
@@ -96,6 +96,7 @@ export default function Whatwedo(){
             </section>
         </section>
         <section className="videos">
+            <h2 className="mobileHeading">Events & Testimonials</h2>
             <div className="video-sec1">
             <iframe src="https://www.youtube.com/embed/xQ_-P_nrnxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1" title="vid1"></iframe>
             <iframe src="https://www.youtube.com/embed/gIJREqi5nFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1" title="vid2"></iframe>
