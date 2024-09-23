@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cysd/static/css/main.fdeb404e.css",
-    "main.js": "/cysd/static/js/main.2d879843.js",
+    "main.css": "/cysd/static/css/main.c73687e1.css",
+    "main.js": "/cysd/static/js/main.d1a4e885.js",
     "static/js/453.708e38c1.chunk.js": "/cysd/static/js/453.708e38c1.chunk.js",
     "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/cysd/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
     "static/media/africanboy4.jpg": "/cysd/static/media/africanboy4.94199e7a38d658f35464.jpg",
@@ -23,10 +23,12 @@
     "static/media/Roboto-Regular.ttf": "/cysd/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Bold.ttf": "/cysd/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
     "static/media/Roboto-Light.ttf": "/cysd/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/sponsor1.png": "/cysd/static/media/sponsor1.218d61fb7375de128b0b.png",
     "static/media/fooddistribution.jpg": "/cysd/static/media/fooddistribution.73203ce13b0f521e315e.jpg",
     "static/media/farmerdistribution.jpg": "/cysd/static/media/farmerdistribution.2e877426ee24e6e2b57d.jpg",
     "static/media/chart.jpeg": "/cysd/static/media/chart.4fe4a85618096b0b05dc.jpeg",
     "static/media/cysdlogo.png": "/cysd/static/media/cysdlogo.02e8745cdbbda15ed8cd.png",
+    "static/media/sponsor2.png": "/cysd/static/media/sponsor2.2420f74e56d3a47d9fe6.png",
     "static/media/twitter.png": "/cysd/static/media/twitter.95faa27072175ad0003d.png",
     "static/media/instagram.png": "/cysd/static/media/instagram.b9c36b6072431382223d.png",
     "static/media/world-humanitarian-day.png": "/cysd/static/media/world-humanitarian-day.70b526b15b3653dfa508.png",
@@ -68,12 +70,12 @@
     "static/media/justice.png": "/cysd/static/media/justice.0089c6ce7d4de82d731f.png",
     "static/media/revicons.woff": "/cysd/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cysd/index.html",
-    "main.fdeb404e.css.map": "/cysd/static/css/main.fdeb404e.css.map",
-    "main.2d879843.js.map": "/cysd/static/js/main.2d879843.js.map",
+    "main.c73687e1.css.map": "/cysd/static/css/main.c73687e1.css.map",
+    "main.d1a4e885.js.map": "/cysd/static/js/main.d1a4e885.js.map",
     "453.708e38c1.chunk.js.map": "/cysd/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdeb404e.css",
-    "static/js/main.2d879843.js"
+    "static/css/main.c73687e1.css",
+    "static/js/main.d1a4e885.js"
   ]
 }
