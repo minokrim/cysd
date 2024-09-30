@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cysd/static/css/main.3394ca10.css",
-    "main.js": "/cysd/static/js/main.d1a4e885.js",
+    "main.css": "/cysd/static/css/main.53b385d7.css",
+    "main.js": "/cysd/static/js/main.ca069c4e.js",
     "static/js/453.708e38c1.chunk.js": "/cysd/static/js/453.708e38c1.chunk.js",
     "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/cysd/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
     "static/media/africanboy4.jpg": "/cysd/static/media/africanboy4.94199e7a38d658f35464.jpg",
@@ -9,11 +9,13 @@
     "static/media/top-view-childs-feet-around-football-ball.jpg": "/cysd/static/media/top-view-childs-feet-around-football-ball.96c36e599ef529614d7a.jpg",
     "static/media/high-angle-friends-with-face-mask-concept.jpg": "/cysd/static/media/high-angle-friends-with-face-mask-concept.363ed92f64285d88e0c7.jpg",
     "static/media/marketWomen.jpg": "/cysd/static/media/marketWomen.bd0f5f08fda29ba2ce79.jpg",
-    "static/media/organisationalchart2.jpg": "/cysd/static/media/organisationalchart2.13267ba425af35b660d0.jpg",
     "static/media/blackkid.jpg": "/cysd/static/media/blackkid.116ea4b8e1805cf17795.jpg",
+    "static/media/orgstructure.jpg": "/cysd/static/media/orgstructure.fb562e3a9de4776df7e0.jpg",
     "static/media/africanboy3.jpg": "/cysd/static/media/africanboy3.df7b815b6ecbb873b666.jpg",
     "static/media/landingimage3.JPG": "/cysd/static/media/landingimage3.22023046ce1225ebe49c.JPG",
-    "static/media/woman2.png": "/cysd/static/media/woman2.e9a3e24b0d3f9f5a2f06.png",
+    "static/media/quen.png": "/cysd/static/media/quen.28137ada682348bdbf92.png",
+    "static/media/fobi.jpg": "/cysd/static/media/fobi.622eb877da3a2f7d9ca5.jpg",
+    "static/media/atuba.png": "/cysd/static/media/atuba.31388fc8f8aa524d9d51.png",
     "static/media/landingimage5.JPG": "/cysd/static/media/landingimage5.d94643e2281d6628e99f.JPG",
     "static/media/studentdistribution.jpg": "/cysd/static/media/studentdistribution.a02a0314c4a595e23387.jpg",
     "static/media/Roboto-BlackItalic.ttf": "/cysd/static/media/Roboto-BlackItalic.fd62a10743bd89a3d97c.ttf",
@@ -25,8 +27,15 @@
     "static/media/Roboto-Light.ttf": "/cysd/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
     "static/media/sponsor1.png": "/cysd/static/media/sponsor1.218d61fb7375de128b0b.png",
     "static/media/fooddistribution.jpg": "/cysd/static/media/fooddistribution.73203ce13b0f521e315e.jpg",
+    "static/media/ceo.png": "/cysd/static/media/ceo.2f50e1c3e7386095bbe4.png",
+    "static/media/bruno.jpg": "/cysd/static/media/bruno.9ca3f7b1405bdbd1a65b.jpg",
+    "static/media/iyang.png": "/cysd/static/media/iyang.9591daa5095471116fc7.png",
     "static/media/farmerdistribution.jpg": "/cysd/static/media/farmerdistribution.2e877426ee24e6e2b57d.jpg",
+    "static/media/subi.jpg": "/cysd/static/media/subi.b75cd83296b623b352f8.jpg",
     "static/media/chart.jpeg": "/cysd/static/media/chart.4fe4a85618096b0b05dc.jpeg",
+    "static/media/sonita.png": "/cysd/static/media/sonita.a955b52e62214943b950.png",
+    "static/media/vp.jpg": "/cysd/static/media/vp.a896899e08157e354645.jpg",
+    "static/media/matilda.jpg": "/cysd/static/media/matilda.2a943da3af36074349ef.jpg",
     "static/media/cysdlogo.png": "/cysd/static/media/cysdlogo.02e8745cdbbda15ed8cd.png",
     "static/media/sponsor2.png": "/cysd/static/media/sponsor2.2420f74e56d3a47d9fe6.png",
     "static/media/twitter.png": "/cysd/static/media/twitter.95faa27072175ad0003d.png",
@@ -70,12 +79,12 @@
     "static/media/justice.png": "/cysd/static/media/justice.0089c6ce7d4de82d731f.png",
     "static/media/revicons.woff": "/cysd/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cysd/index.html",
-    "main.3394ca10.css.map": "/cysd/static/css/main.3394ca10.css.map",
-    "main.d1a4e885.js.map": "/cysd/static/js/main.d1a4e885.js.map",
+    "main.53b385d7.css.map": "/cysd/static/css/main.53b385d7.css.map",
+    "main.ca069c4e.js.map": "/cysd/static/js/main.ca069c4e.js.map",
     "453.708e38c1.chunk.js.map": "/cysd/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3394ca10.css",
-    "static/js/main.d1a4e885.js"
+    "static/css/main.53b385d7.css",
+    "static/js/main.ca069c4e.js"
   ]
 }
