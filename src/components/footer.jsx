@@ -59,11 +59,11 @@ export default function Footer(){
             </div>
         </section>
         <section className="footerSocials footer">
-            <Link target="_blank" to><h3>Connect</h3></Link>
-            <Link target="_blank" to="https://www.facebook.com/cysdcam"><p>Facebook</p></Link>
-            <Link target="_blank"><p>Instagram</p></Link>
-            <Link target="_blank" to="https://www.youtube.com/channel/UCk2dgfBK9ItoWYJ0z-PZ7dA"><p>Youtube</p></Link>
-            <Link target="_blank" to="https://www.linkedin.com/company/cysdcameroon/?viewAsMember=true"><p>Linkedin</p></Link>
+            <h3>Connect</h3>
+            <Link target="_blank" to="https://www.facebook.com/cysdcam" className="footerSocialsLink"><p>Facebook</p></Link>
+            <Link target="_blank" to="https://www.instagram.com/cysdcameroon/" className="footerSocialsLink"><p>Instagram</p></Link>
+            <Link target="_blank" to="https://www.youtube.com/channel/UCk2dgfBK9ItoWYJ0z-PZ7dA" className="footerSocialsLink"><p>Youtube</p></Link>
+            <Link target="_blank" to="https://www.linkedin.com/company/cysdcameroon/?viewAsMember=true" className="footerSocialsLink"><p>Linkedin</p></Link>
         </section>
         <section className="footer">
             <h3>Conatact</h3>
