@@ -28,7 +28,7 @@ export default function Nav(){
         <img src={mobileNav?hamburger2:hamburger} alt="hamburger icon" id="hamburger" onClick={handleClick}/>
         </section>
         {mobileNav && (
-        <section className="mobileNavOptions" id="mobileNav">
+        <section className="mobileNavOptions" id="mobileNav" onClick={handleClick}>
             <Link to="/" className="Link">Home</Link>
             <Link to="/about" className="Link">About Us</Link>
             <Link to="/whatwedo" className="Link">What We Do</Link>

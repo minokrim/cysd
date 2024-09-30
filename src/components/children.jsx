@@ -16,7 +16,7 @@ export default function Children(){
             {ChildrenData.map((kid)=>(
                 <div key={kid.id} className="children-details">
                     <img src={kid.image} alt="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
-                    <p className="sponsorButton">{buttonState==true&&(<p>SPONSOR</p>)}</p>
+                    <p className="sponsorButton">{buttonState===true&&(<p>SPONSOR</p>)}</p>
                     <div>
                     <h3>Name: {kid.name}</h3>
                     <h4>Age: {kid.Age} years old</h4>

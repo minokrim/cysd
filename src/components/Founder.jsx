@@ -12,7 +12,7 @@ export default function Founder(){
             <p>Founder of the Centre for Youth and Sustainable Development founded to combat the high rate of secondary school dropout among young boys and girls in the Munyenge community.</p>
             <section className="founder">
                 <div className="founderDetails">
-                    <img src={founder} alt="founder image" />
+                    <img src={founder} alt="founder" />
                     <h3>OFORKA ANSLEM</h3>
                     <p>Executive Director</p>
                     <section className="founderSocials">

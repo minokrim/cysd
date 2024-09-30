@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./form.css"
 import axios from "axios"
+import Swal from "sweetalert2";
 export default function Form(){
-    const [firstname,setFirstName]=useState("")
-    const [email,setemail]=useState("")
+        const [firstname,setFirstName]=useState("")
+        const [email,setemail]=useState("")
     const [lastName,setLastName]=useState("")
     const [subject,setSubject]=useState("")
     const [message,setMessage]=useState("")
@@ -20,11 +21,24 @@ export default function Form(){
         }
         axios.post("http://localhost:5000/message/react",details)
         .then((res)=>{
-            console.log(res.data.message)
+            console.log(res)
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Message sent successfully",
+                showConfirmButton: false,
+                timer: 1500
+              });
         })
         .catch((error)=>{
             console.log(error)
-            alert("Failed to send email. Please try again.");
+            Swal.fire({
+                position: "top-end",
+                icon: "error",
+                title: "Failed to send message. Please try again later. 1500ms",
+                showConfirmButton: false,
+                timer: 1500
+              });
         })
     }
 

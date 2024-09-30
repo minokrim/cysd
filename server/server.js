@@ -3,17 +3,17 @@ import bodyParser from "body-parser"
 import env from "dotenv"
 import nodemailer from "nodemailer"
 import cors from "cors"
+import mailchimp from "@mailchimp/mailchimp_marketing";
 
 const app=express();
 env.config()
-const { EMAIL_USER, EMAIL_PASS,SMTP_HOST, SMTP_PORT } = process.env;
-const PORT=5000
+const { EMAIL_USER, EMAIL_PASS,SMTP_HOST, SMTP_PORT,SERVER_PORT,MAILCHIMP_APIKEY,MAILCHIMP_SERVER} = process.env;
+const PORT=SERVER_PORT
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use(bodyParser.json());
 app.use(cors());
-console.log(EMAIL_PASS)
 let transporter=nodemailer.createTransport({
     host:SMTP_HOST, 
     port:parseInt(SMTP_PORT),
@@ -54,6 +54,34 @@ app.post("/message/react",(req,res)=>{
         }
       });
 })
+
+mailchimp.setConfig({
+  apiKey: MAILCHIMP_APIKEY,
+  server: MAILCHIMP_SERVER,
+});
+
+app.post("/email/react", async (req, res) => {
+    const email = req.body.email;
+    const name=req.body.name;
+    const footerEmail=req.body.footerEmail;
+
+    try{
+        const response = await mailchimp.lists.addListMember("962ff373fc",{
+            email_address: email||footerEmail,
+            status:"subscribed",
+            merge_fields: {
+                FNAME: name||"",
+                LNAME: "",  
+            },
+            update_existing: true,
+        });
+        res.status(200).json({ message: "Email added successfully to the list!" });
+    }
+    catch(error){
+        console.error(error);
+        res.status(500).json({ error: "Failed to add email to the list." });
+    }
+});
 
 
 app.listen(PORT,()=>{

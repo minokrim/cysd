@@ -18,8 +18,9 @@ export default function Body(){
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["CYSD",'Working to Prevent School Dropouts and Resolve Social Issues in Munyenge, Cameroon.'],
+      strings: ["Centre for Youth and Sustainable Development [CYSD]",'Working to Prevent School Dropouts and Resolve Social Issues in Munyenge, Cameroon.'],
       typeSpeed: 100,
+      backDelay: 3000,
     });
 
     return () => {
@@ -31,9 +32,9 @@ export default function Body(){
     return <div className="homeBody">
         <Nav/>
         <section className="landingImage">
-            <img src={landingImage8} alt="landing Image" />
+            <img src={landingImage8} alt="smiling children" />
             <section className="descHolder">
-            <h1 className="imageDesc"><span ref={el} /></h1>
+            <h2 className="imageDesc"><span ref={el} /></h2>
             </section>
             <section className="statsSection">
             <p>389 students under our care</p>
@@ -60,7 +61,7 @@ export default function Body(){
             <p>WHAT WE DO</p>
             </div>
             <h2>Some Services we provide for our students</h2>
-            <p id="whatWeDoDesc">CYSD aims to break the cycle of educational inequality by addressing low reading proficiency in primary schools, the root cause of high secondary school dropout rates in Munyenge.</p>
+            <p id="whatWeDoDesc">CYSD aims to break the cycle of educational inequality by addressing low reading proficiency in primary schools, the root cause of high secondary school dropout rates in rural communities in the Muyuka subdivison.</p>
             <section className="whatWeDo">
                 <img src={education} alt="education icon" />
                 <div>
@@ -82,7 +83,7 @@ export default function Body(){
                     <p>CYSD-Cameroon initiated the Humanitarian Response program, a leading initiative dedicated to identifying and aiding Internally Displaced Persons and their host communities.</p>
                 </div>
             </section>
-            <button>Learn More</button>
+            <Link to="/whatwedo"><button>Learn More</button></Link>
             </div>
             <img src={landingImage2} alt="" className="homeSectionImages whatWeDoImage"/>
         </section>

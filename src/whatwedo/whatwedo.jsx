@@ -16,7 +16,6 @@ import Value from "../content/values";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Principles from "../content/principles";
-import poster from "../images/landingimage5.JPG";
 import { Link } from "react-router-dom";
 
 export default function Whatwedo(){
@@ -53,8 +52,8 @@ export default function Whatwedo(){
         <section className="whatwedo-heading">
             <section className="whatwedo-leftSection">
             <div className="homeSectionTitle">
-                <div></div>
-                <p>KNOW ABOUT US</p>
+                <div id="divider"></div>
+                <p>WHAT WE DO</p>
             </div>
         <h1>We are working across Munyege community</h1>
         <p className="whatwedo-desc">Our organization is deeply committed to improving the quality of life for vulnerable populations, with a particular focus on orphans and internally displaced children who have been severely impacted by the ongoing conflict in the English-speaking regions of Cameroon. We understand the profound challenges these children face displacement, loss of family, lack of access to basic education, healthcare, and stable shelter. Through targeted interventions, we strive to provide comprehensive support, including safe housing, educational opportunities, psychological counseling, and access to essential healthcare services.</p>
@@ -64,8 +63,7 @@ export default function Whatwedo(){
         </section>
         <section className="documentary">
             <h2>What we do for the community</h2>
-            <iframe src="https://www.youtube.com/embed/xQ_-P_nrnxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="documentaryVideo" title="vid1"></iframe>
-            {/* <video  src={cydmvideo}  controls poster={poster} className="documentaryVideo" allowFullScreen></video> */}
+            <iframe src="https://www.youtube.com/embed/xQ_-P_nrnxM"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className="documentaryVideo" title="vid1"></iframe>
             </section>
         <section className="whatwedo-services">
             <section className="service-section">
@@ -98,15 +96,15 @@ export default function Whatwedo(){
         <section className="videos">
             <h2 className="mobileHeading">Events & Testimonials</h2>
             <div className="video-sec1">
-            <iframe src="https://www.youtube.com/embed/xQ_-P_nrnxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1" title="vid1"></iframe>
-            <iframe src="https://www.youtube.com/embed/gIJREqi5nFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1" title="vid2"></iframe>
+            <iframe src="https://www.youtube.com/embed/xQ_-P_nrnxM"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className="frame frame1" title="vid1"></iframe>
+            <iframe src="https://www.youtube.com/embed/gIJREqi5nFI"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className="frame frame1" title="vid2"></iframe>
             </div>
             <div className="videoTitle">
                 <h2>Events & Testimonials</h2>
             </div>
             <div className="video-sec2">
-            <iframe src="https://www.youtube.com/embed/sYRhk0CrW_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1" title="vid3"></iframe>
-            <iframe src="https://www.youtube.com/embed/YKTd3y8BYOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="frame frame1" title="vid4"></iframe>
+            <iframe src="https://www.youtube.com/embed/sYRhk0CrW_c"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className="frame frame1" title="vid3"></iframe>
+            <iframe src="https://www.youtube.com/embed/YKTd3y8BYOE"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className="frame frame1" title="vid4"></iframe>
             </div>
         </section>
         <section className="values-principles">

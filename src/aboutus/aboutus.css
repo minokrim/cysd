@@ -81,12 +81,13 @@
 .mission  p{
     color: var(--primary-color);
     font-family: "Roboto Bold";
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 .mission h3{
     width: 90%;
     font-size: 35px;
     font-family: "Roboto Bold";
+    height: 300px;
 }
 .mission h4{
     font-family: "Roboto Light Italic";
@@ -100,12 +101,13 @@
 .vision  p{
     color: var(--primary-color);
     font-family: "Roboto Bold";
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 .vision h3{
     width: 90%;
     font-size: 35px;
     font-family: "Roboto Bold";
+    height: 300px;
 }
 .vision h4{
     font-family: "Roboto Light Italic";
@@ -129,6 +131,40 @@
     height: auto;
     margin-top: 0px;
     padding-top: 0px;
+}
+.organisationPosition{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.positions{
+    width: 300px;
+    color: black;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.positions h4{
+    font-size: 18px;
+    width: 300px;
+}
+.organisationPosition img{
+    width: 150px ;
+    height: 150px;
+    background-color: black;
+    background-position: initial;
+    border-top-right-radius: 40%;
+}
+@media screen and (max-width: 1040px) {
+    .organisationPosition{
+        gap: 20px;
+    }
+    .positions{
+        width: 250px;
+    }
+    .positions h4{
+        width: 250px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:660px) {
@@ -190,5 +226,14 @@
     .chart img{
         width: 100%;
         height: auto;
+    }
+    .organisationPosition{
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .organisationPosition img{
+        width: 120px ;
+        height: 100px;
     }
 }

@@ -13,9 +13,9 @@ export default function Contact(){
         <div className="contactBody">
         <section className="contactLeft">
         <div className="homeSectionTitle">
-                <h3></h3>
-                <p>KNOW ABOUT US</p>
-        </div>
+                <div id="divider"></div>
+                <p>Contact Us</p>
+            </div>
         <h1>We'd really love to hear from you.</h1>
         <p>Have any question in mind or want to enquire? Please feel free to contact us through the form or with the following details.</p>
         </section>

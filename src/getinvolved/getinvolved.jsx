@@ -1,12 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import "./getinvolved.css"
 import Footer from "../components/footer";
 import Nav from "../components/nav";
 import Children from "../components/children";
-import woman from "../images/woman2.png"
 import Contribute from "../components/contribute";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import Swal from 'sweetalert2'
+
+
 export default function Getinvolved(){
+    const [name, setName]=useState("")
+    const [email,setEmail]=useState("")
+
+    function handleSubmit(e){
+        e.preventDefault()
+
+        const data={
+            name:name,
+            email:email
+        
+        }
+        axios.post("http://localhost:5000/email/react",data)
+       .then((response)=>{
+        Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Thank you for join the Friendship Circle",
+            showConfirmButton: false,
+            timer: 1500
+          });
+       })
+       .catch((error)=>{
+        console.log(error)
+        Swal.fire({
+            position: "top-end",
+            icon: "error",
+            title: "Error occurred while subscribing. Please try again later.",
+            showConfirmButton: false,
+            timer: 1500
+          });
+       })
+    }
     return <div>
         <Nav/>
         <section className="getinvolved-heading">
@@ -16,10 +51,10 @@ export default function Getinvolved(){
         </div>
         <div className="right-getinvolved-heading">
         <h2>Join Friendship Circle</h2>
-            <form action="">
-                <input type="text" name="" id="" placeholder="Name:-John Doe"/>
-                <input type="email" name="" id="" placeholder="Email:-example@email.com"/>
-                <button>Subscribe</button>
+            <form action="submit" onSubmit={handleSubmit}>
+                <input type="text" name="" id="" placeholder="Name:-John Doe" onChange={((e)=>{setName(e.target.value)})}/>
+                <input type="email" name="" id="" placeholder="Email:-example@email.com" onChange={((e)=>{setEmail(e.target.value)})}/>
+                <button type="submit">Subscribe</button>
             </form>
         </div>
         </section>

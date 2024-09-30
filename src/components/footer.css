@@ -25,11 +25,16 @@
     display: flex;
     align-items: center;
 }
+.newsletter form{
+    display: flex;
+    align-items: center;
+    height: max-content;
+    padding-top: 0px;
+    margin-top: 0px;
+}
 .newsletter input{
     width: 400px;
     height: 25px;
-    margin-top: 0px;
-    padding-top: 0px;
     border-radius: 5px;
 }
 .newsletter button{
@@ -38,6 +43,7 @@
     align-items: center;
     position: relative;
     margin-left: -100px;
+    text-align: center;
 }
 .footerSection h3{
     font-family: "Roboto Medium";

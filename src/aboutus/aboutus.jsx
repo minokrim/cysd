@@ -4,16 +4,25 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import africanboy from "../images/africanboy4.jpg"
 import Founder from "../components/Founder";
-import chart from "../images/organisationalchart2.jpg"
+import structure from "../images/orgstructure.jpg";
 import Contribute from "../components/contribute";
+import Staff from "../content/staff";
 export default function Aboutus(){
+
+    function renderStaff(staff){
+        return <Staff 
+        key={staff.id}
+        name={staff.name}
+        position={staff.position}
+        img={staff.img}/>;
+    }
     return <div className="aboutusMain">
         <Nav/>
         <div className="aboutusBody">
             <section className="aboutusHeader">
                 <div className="leftHeader">
                 <div className="homeSectionTitle">
-                <h3 id="divider"></h3>
+                <div id="divider"></div>
                 <p>KNOW ABOUT US</p>
                 </div>
                     <h2>We are a non-governmental organization.</h2>
@@ -31,12 +40,12 @@ export default function Aboutus(){
                 <section className="missionAndVision">
                 <div className="mission">
                     <p>OUR MISSION</p>
-                    <h3>We want to nurture minds and shape the future through programs in education, development, health, and conservation.</h3>
-                    <h4>Our mission is that of nurturing Minds and shaping the Future for community regeneration and transformation.  Within this mission, we operate and run several programs ranging from Education, Social and Economic Development, Gender-based violence, environmental conservation, Community health education and others.</h4>
+                    <h3>We want to nurture minds and shape the future through programs in education, child development, community health, human right & governance, social and economic empowerment.</h3>
+                    <h4>Our mission is that of nurturing minds and shaping the future for community regeneration and transformation. within this mission, we operate and run programs ranging from Education, child protection, Community Health, Human Rights & Governance, and Social and Economic Empowerment.</h4>
                 </div>
                 <div className="vision">
                     <p>OUR VISION</p>
-                    <h3>Our vision is to empower communities through access to opportunities and sustainable development.</h3>
+                    <h3>Our vision is to empower communities through access to opportunities and sustainable development. By fostering innovation, promoting inclusivity, and supporting long-term growth</h3>
                     <h4>We envision a future where every individual, regardless of background or circumstance, has access to quality education, economic opportunities, and a safe environment. By nurturing minds, we aim to break the cycle of poverty and inequality, empowering communities to thrive and create lasting, positive change.</h4>
                 </div>
                 </section>
@@ -45,8 +54,15 @@ export default function Aboutus(){
             <section className="chart">
                 <h2>Meet Our Team</h2>
                 <p>At the heart of our mission is a dedicated team of passionate professionals committed to driving positive change in our communities. Each member brings a unique blend of skills, experience, and a deep commitment to our vision of empowering individuals through education, development, and sustainability. Together, we work tirelessly to create opportunities, foster growth, and make a lasting impact on the lives we touch. Meet the people who are turning our vision into reality, one step at a time.</p>
-                <img src={chart} alt="" />
+                <img src={structure} alt="CYMD structure organisation" />
                 <div className="organisationPosition">
+                    {Staff.map((staff)=>(
+                        <div key={staff.id} className="positions">
+                            <img src={staff.img} alt="" />
+                            <h4>{staff.name}</h4>
+                            <h5>{staff.position}</h5>
+                        </div>
+                    ))}
                 </div>
             </section>
             <Contribute/>
