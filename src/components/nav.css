@@ -43,10 +43,11 @@
 }
 .navBody{
     display: flex;
-    gap: 200px;
+    gap: 50px;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: space-around;
 }
 .navLogo img{
     width: auto;

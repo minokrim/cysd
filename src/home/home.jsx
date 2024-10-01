@@ -85,8 +85,10 @@ export default function Body(){
             </section>
             <Link to="/whatwedo"><button>Learn More</button></Link>
             </div>
+            <div className="whatwedoImageContainer">
             <img src={landingImage2} alt="" className="homeSectionImages whatWeDoImage"/>
-        </section>
+            </div>
+            </section>
         <Project/>
         <Donationbreakdwon/>
         <Contribute/>

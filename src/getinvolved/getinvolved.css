@@ -131,7 +131,8 @@
     display: flex;
     padding-bottom: 50PX;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
 }
 .sponsorRight{
     display: flex;

@@ -71,14 +71,14 @@
     padding: 20px 20px;
 }
 .statsSection hr{
-    width: 800px;
+    width: 80%;
     height: 0px;
 }
 .aboutSection{
     display: flex;
     background-color: var(--secondary-color);
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-right: 15px;
 }
 .aboutLeftSection{
@@ -95,7 +95,7 @@
 }
 .homeSectionTitle #divider{
     border: 1.5px solid var(--primary-color);
-    width:10%;
+    width:50px;
     margin-bottom: 2px;
     padding-bottom: 0px;
     margin-top: 20px;
@@ -138,7 +138,7 @@ button{
     margin: 20px 0px 20px 5px;
 }
 .whatWeDoSection{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 15px;
     display: flex;
@@ -181,10 +181,15 @@ button{
     font-family: "Roboto Regular";
     font-size: 16px;
 }
+.whatwedoImageContainer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+}
 .whatWeDoImage{
-    height: 600px;
-    width: 48%;
-    margin-top: 250px;
+    height: 70%;
+    width: 95%;
 }
 @media screen and (max-width: 1040px) {
     .descHolder{
@@ -218,6 +223,9 @@ button{
         padding-left: 10px;
     }
     .whatWeDoLeftSection{
+        width: 100%;
+    }
+    .whatwedoImageContainer{
         width: 100%;
     }
     .whatWeDoImage{
@@ -279,6 +287,11 @@ button{
     .whatWeDo img{
         width: auto;
         height: 50px;
+    }
+    .whatwedoImageContainer{
+        align-items: center;
+        justify-content: center;
+        width: 95%;
     }
     .whatWeDoImage{
         height: auto;

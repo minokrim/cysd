@@ -85,8 +85,9 @@
 }
 .video-sec1{
     display: flex;
-    gap: 50px;
+    justify-content: space-around;
     width: 100%;
+    align-items: center;
 }
 .video-sec1 iframe{
     border-radius: 50px;
@@ -105,9 +106,9 @@ background-color: white;
 }
 .video-sec2{
     display: flex;
-    gap: 50px;
+    justify-content: space-around;
     width: 100%;
-
+    align-items: center;
 }
 .video-sec2 iframe{
     border-radius: 50px;
@@ -117,7 +118,7 @@ background-color: white;
 .values-principles{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding-top: 20px;
     gap: 50px;
 }
 .mobileHeading{

@@ -41,12 +41,12 @@ export default function Aboutus(){
                 <div className="mission">
                     <p>OUR MISSION</p>
                     <h3>We want to nurture minds and shape the future through programs in education, child development, community health, human right & governance, social and economic empowerment.</h3>
-                    <h4>Our mission is that of nurturing minds and shaping the future for community regeneration and transformation. within this mission, we operate and run programs ranging from Education, child protection, Community Health, Human Rights & Governance, and Social and Economic Empowerment.</h4>
+                    {/* <h4>Our mission is that of nurturing minds and shaping the future for community regeneration and transformation. within this mission, we operate and run programs ranging from Education, child protection, Community Health, Human Rights & Governance, and Social and Economic Empowerment.</h4> */}
                 </div>
                 <div className="vision">
                     <p>OUR VISION</p>
                     <h3>Our vision is to empower communities through access to opportunities and sustainable development. By fostering innovation, promoting inclusivity, and supporting long-term growth</h3>
-                    <h4>We envision a future where every individual, regardless of background or circumstance, has access to quality education, economic opportunities, and a safe environment. By nurturing minds, we aim to break the cycle of poverty and inequality, empowering communities to thrive and create lasting, positive change.</h4>
+                    {/* <h4>We envision a future where every individual, regardless of background or circumstance, has access to quality education, economic opportunities, and a safe environment. By nurturing minds, we aim to break the cycle of poverty and inequality, empowering communities to thrive and create lasting, positive change.</h4> */}
                 </div>
                 </section>
             </section>
