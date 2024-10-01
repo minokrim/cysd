@@ -4,6 +4,7 @@
     text-align: left;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: var(--secondary-color);
 }
 .formBody h1{
     display: flex;
@@ -40,6 +41,7 @@ input{
     padding-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    background-color: var(--secondary-color);
 }
 input:focus{
     border: none;

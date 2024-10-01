@@ -6,10 +6,10 @@
     display: flex;
     background-color: var(--secondary-color);
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .contactLeft{
     width: 50%;
@@ -49,6 +49,7 @@
 .social{
     display: flex;
     gap: 10px;
+    margin-top: 20px;
 }
 .social img{
     width: auto;
@@ -58,7 +59,7 @@
 
 @media screen and (max-width:1040px) {
     .contactBody{
-        padding-bottom: 150px;
+        padding-bottom: 0px;
     }
 }
 

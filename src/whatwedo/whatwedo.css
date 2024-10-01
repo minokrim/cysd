@@ -7,6 +7,10 @@
     text-align: left;
     margin-top: -100px;
 }
+.farmerimagecontainer{
+    display: flex;
+    align-items: center;
+}
 .whatwedo-leftSection{
     width: 50%;
 }

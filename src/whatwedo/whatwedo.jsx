@@ -1,6 +1,6 @@
 import React from "react";
 import "./whatwedo.css"
-import marketwomen from "../images/marketWomen.jpg"
+import marketwomen from "../images/agric.jpg"
 import education from "../images/education.png"
 import empowerment from "../images/empowerment.png"
 import humanitarian from "../images/humanitarian.png"
@@ -55,11 +55,13 @@ export default function Whatwedo(){
                 <div id="divider"></div>
                 <p>WHAT WE DO</p>
             </div>
-        <h1>We are working across Munyege community</h1>
-        <p className="whatwedo-desc">Our organization is deeply committed to improving the quality of life for vulnerable populations, with a particular focus on orphans and internally displaced children who have been severely impacted by the ongoing conflict in the English-speaking regions of Cameroon. We understand the profound challenges these children face displacement, loss of family, lack of access to basic education, healthcare, and stable shelter. Through targeted interventions, we strive to provide comprehensive support, including safe housing, educational opportunities, psychological counseling, and access to essential healthcare services.</p>
+        <h1>We are working across communities</h1>
+        <p className="whatwedo-desc">We are deeply committed to improving the quality of life for vulnerable populations with a particular focus on women and children who have been severely affected by the ongoing conflict in the English-speaking regions of Cameroon. We understand the profound challenges these women and children face displacement, loss of family, lack of access to healthcare, stable shelter, basic education, and forceful teenage marriage for girls. Through our targeted interventions, we strive to provide comprehensive support to orphans and vulnerable children in hard-to-reach zones with accelerated and remedial education, psychosocial support, workshops, and training on agroecology techniques for women, livelihood assistance for internally displaced persons (IDPs) and micro-projects for community relief groups.</p>
         <Link to="https://paypal.me/cysdcam?country.x=LS&locale.x=en_US" target="_blank"><button>Donate</button></Link>
         </section>
-        <img src={marketwomen} alt="market women" />
+        <section className="farmerimagecontainer">
+        <img src={marketwomen} alt="farmers working" />
+        </section>
         </section>
         <section className="documentary">
             <h2>What we do for the community</h2>

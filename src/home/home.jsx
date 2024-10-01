@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../components/nav";
-import landingImage8 from "../images/africanchildren2.jpg"
-import landingImage1 from "../images/landingimage5.JPG"
+import landingImage8 from "../images/landingimage10.jpeg"
+import landingImage1 from "../images/kidsmaterials.jpg"
 import landingImage2 from "../images/landingimage3.JPG"
 import education from "../images/education.png"
 import humanitarian from "../images/humanitarian.png"
@@ -60,7 +60,7 @@ export default function Body(){
             <div id="divider"></div>
             <p>WHAT WE DO</p>
             </div>
-            <h2>Some Services we provide for our students</h2>
+            <h2>Some Services we provide for the community</h2>
             <p id="whatWeDoDesc">CYSD aims to break the cycle of educational inequality by addressing low reading proficiency in primary schools, the root cause of high secondary school dropout rates in rural communities in the Muyuka subdivison.</p>
             <section className="whatWeDo">
                 <img src={education} alt="education icon" />

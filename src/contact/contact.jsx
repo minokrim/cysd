@@ -7,6 +7,7 @@ import linkedin from "../images/linkedin.png"
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Form from "../components/form";
+import { Link } from "react-router-dom";
 export default function Contact(){
     return <div className="contactMain">
         <Nav/>
@@ -31,10 +32,10 @@ export default function Contact(){
                 <p>Mile Eighteen 18 Junction</p>
             </div>
             <div className="social">
-                <img src={ig} alt="" />
-                <img src={fb} alt="" />
-                <img src={x} alt="" />
-                <img src={linkedin} alt="" />
+                <Link to="https://www.instagram.com/cysdcameroon/" target="_blank"><img src={ig} alt="" /></Link>
+                <Link to="https://www.facebook.com/cysdcam" target="_blank"><img src={fb} alt="" /></Link>
+                {/* <Link to="https://www.youtube.com/channel/UCk2dgfBK9ItoWYJ0z-PZ7dA"><img src={x} alt="" /></Link> */}
+                <Link to="https://www.linkedin.com/company/cysdcameroon/?viewAsMember=true" target="_blank"><img src={linkedin} alt="" /></Link>
             </div>
         </section>
         </div>

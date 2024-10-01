@@ -77,9 +77,10 @@
 .aboutSection{
     display: flex;
     background-color: var(--secondary-color);
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     padding-right: 15px;
+    align-items: center;
 }
 .aboutLeftSection{
     width: 50%;
@@ -136,6 +137,7 @@ button{
     color: white;
     border-radius: 5px;
     margin: 20px 0px 20px 5px;
+    cursor: pointer;
 }
 .whatWeDoSection{
     padding-top: 50px;
