@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/cysd/static/css/main.30176b23.css",
-    "main.js": "/cysd/static/js/main.aff1ecd2.js",
+    "main.css": "/cysd/static/css/main.69fbb451.css",
+    "main.js": "/cysd/static/js/main.a299d138.js",
     "static/js/453.708e38c1.chunk.js": "/cysd/static/js/453.708e38c1.chunk.js",
     "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/cysd/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
     "static/media/africanboy4.jpg": "/cysd/static/media/africanboy4.94199e7a38d658f35464.jpg",
-    "static/media/africanchildren2.jpg": "/cysd/static/media/africanchildren2.58850828bbc504810db0.jpg",
     "static/media/top-view-childs-feet-around-football-ball.jpg": "/cysd/static/media/top-view-childs-feet-around-football-ball.96c36e599ef529614d7a.jpg",
     "static/media/high-angle-friends-with-face-mask-concept.jpg": "/cysd/static/media/high-angle-friends-with-face-mask-concept.363ed92f64285d88e0c7.jpg",
-    "static/media/marketWomen.jpg": "/cysd/static/media/marketWomen.bd0f5f08fda29ba2ce79.jpg",
     "static/media/blackkid.jpg": "/cysd/static/media/blackkid.116ea4b8e1805cf17795.jpg",
     "static/media/orgstructure.jpg": "/cysd/static/media/orgstructure.fb562e3a9de4776df7e0.jpg",
     "static/media/africanboy3.jpg": "/cysd/static/media/africanboy3.df7b815b6ecbb873b666.jpg",
+    "static/media/agric.jpg": "/cysd/static/media/agric.044c45cbcf4302829e2e.jpg",
     "static/media/landingimage3.JPG": "/cysd/static/media/landingimage3.22023046ce1225ebe49c.JPG",
     "static/media/quen.png": "/cysd/static/media/quen.28137ada682348bdbf92.png",
     "static/media/fobi.jpg": "/cysd/static/media/fobi.622eb877da3a2f7d9ca5.jpg",
+    "static/media/landingimage10.jpeg": "/cysd/static/media/landingimage10.7bbb14261e7ea1ddca42.jpeg",
     "static/media/atuba.png": "/cysd/static/media/atuba.31388fc8f8aa524d9d51.png",
-    "static/media/landingimage5.JPG": "/cysd/static/media/landingimage5.d94643e2281d6628e99f.JPG",
     "static/media/studentdistribution.jpg": "/cysd/static/media/studentdistribution.a02a0314c4a595e23387.jpg",
+    "static/media/kidsmaterials.jpg": "/cysd/static/media/kidsmaterials.ea935cad6551baa0c922.jpg",
     "static/media/Roboto-BlackItalic.ttf": "/cysd/static/media/Roboto-BlackItalic.fd62a10743bd89a3d97c.ttf",
     "static/media/Roboto-LightItalic.ttf": "/cysd/static/media/Roboto-LightItalic.c590382422f2742d788b.ttf",
     "static/media/Roboto-BoldItalic.ttf": "/cysd/static/media/Roboto-BoldItalic.87d61cea6fe1d235d4a8.ttf",
@@ -79,12 +79,12 @@
     "static/media/justice.png": "/cysd/static/media/justice.0089c6ce7d4de82d731f.png",
     "static/media/revicons.woff": "/cysd/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cysd/index.html",
-    "main.30176b23.css.map": "/cysd/static/css/main.30176b23.css.map",
-    "main.aff1ecd2.js.map": "/cysd/static/js/main.aff1ecd2.js.map",
+    "main.69fbb451.css.map": "/cysd/static/css/main.69fbb451.css.map",
+    "main.a299d138.js.map": "/cysd/static/js/main.a299d138.js.map",
     "453.708e38c1.chunk.js.map": "/cysd/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30176b23.css",
-    "static/js/main.aff1ecd2.js"
+    "static/css/main.69fbb451.css",
+    "static/js/main.a299d138.js"
   ]
 }
