@@ -35,7 +35,7 @@ export default function Form(){
             Swal.fire({
                 position: "top-end",
                 icon: "error",
-                title: "Failed to send message. Please try again later. 1500ms",
+                title: "Failed to send message. Please try again later.",
                 showConfirmButton: false,
                 timer: 1500
               });

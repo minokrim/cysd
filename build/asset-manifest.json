@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cysd/static/css/main.8dedd454.css",
-    "main.js": "/cysd/static/js/main.578c7731.js",
+    "main.js": "/cysd/static/js/main.969ac403.js",
     "static/js/453.708e38c1.chunk.js": "/cysd/static/js/453.708e38c1.chunk.js",
     "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/cysd/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
     "static/media/africanboy4.jpg": "/cysd/static/media/africanboy4.94199e7a38d658f35464.jpg",
@@ -40,6 +40,7 @@
     "static/media/cysdlogo.png": "/cysd/static/media/cysdlogo.02e8745cdbbda15ed8cd.png",
     "static/media/sponsor2.png": "/cysd/static/media/sponsor2.2420f74e56d3a47d9fe6.png",
     "static/media/twitter.png": "/cysd/static/media/twitter.95faa27072175ad0003d.png",
+    "static/media/whatsapp.png": "/cysd/static/media/whatsapp.a469ead72bafc70fa0c9.png",
     "static/media/instagram.png": "/cysd/static/media/instagram.b9c36b6072431382223d.png",
     "static/media/world-humanitarian-day.png": "/cysd/static/media/world-humanitarian-day.70b526b15b3653dfa508.png",
     "static/media/coordination.png": "/cysd/static/media/coordination.54d0f130dd6fbdd6dca8.png",
@@ -81,11 +82,11 @@
     "static/media/revicons.woff": "/cysd/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cysd/index.html",
     "main.8dedd454.css.map": "/cysd/static/css/main.8dedd454.css.map",
-    "main.578c7731.js.map": "/cysd/static/js/main.578c7731.js.map",
+    "main.969ac403.js.map": "/cysd/static/js/main.969ac403.js.map",
     "453.708e38c1.chunk.js.map": "/cysd/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8dedd454.css",
-    "static/js/main.578c7731.js"
+    "static/js/main.969ac403.js"
   ]
 }

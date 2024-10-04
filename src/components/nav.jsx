@@ -13,7 +13,8 @@ export default function Nav(){
     return <div className="navMain">
         <section className="navBody">
         <section className="navLogo">
-            <img src={logo} alt="cysd Logo" />
+            <Link to="/"><img src={logo} alt="cysd Logo" /></Link>
+            
         </section>
         <section className="navOptions">
             <Link to="/" className="link">Home</Link>

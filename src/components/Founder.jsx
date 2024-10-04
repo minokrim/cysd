@@ -2,9 +2,10 @@ import React from "react";
 import "./founder.css"
 import ig from "../images/instagram.png"
 import fb from "../images/facebook.png"
-import x from "../images/twitter.png"
+import x from "../images/whatsapp.png"
 import linkedin from "../images/linkedin.png"
 import founder from "../images/founder.jpg"
+import { Link } from "react-router-dom";
 export default function Founder(){
     return <div className="founderMain">
         <section className="founderBody">
@@ -16,10 +17,9 @@ export default function Founder(){
                     <h3>OFORKA ANSLEM</h3>
                     <p>Executive Director</p>
                     <section className="founderSocials">
-                        <img src={ig} alt="instagram logo" />
-                        <img src={fb} alt="facebook logo" />
-                        <img src={x} alt="x formerly known as twitter logo" />
-                        <img src={linkedin} alt="linkedin logo" />
+                        <Link to="https://www.linkedin.com/in/oforka-anslem-546765182/" target="_blank"><img src={linkedin} alt="linkedin logo" /></Link>
+                        <Link to="https://api.whatsapp.com/send?phone=237674679298" target="_blank"><img src={x} alt="x formerly known as twitter logo" /></Link>
+                        
                     </section>
                 </div>
                 <div className="founderAbout">
