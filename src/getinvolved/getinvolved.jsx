@@ -61,7 +61,7 @@ export default function Getinvolved(){
         <section className="program">
             <section className="program-card-holder1">
             <div className="program-card">
-                <h2>Sponsor CYMD</h2>
+                <h2>Sponsor CYSD</h2>
                 <p>Sponsor CYMD to empower youth and foster sustainable development in their communities. Your support, helps create lasting opportunities.</p>
                 <Link to="/contact" target="_blank"><button>Sponsor CYMD</button></Link>
             </div>

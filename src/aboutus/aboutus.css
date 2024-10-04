@@ -147,9 +147,10 @@
 }
 .positions{
     width: 300px;
-    color: black;
+    color: white;
     border-radius: 10px;
     padding-top: 20px;
+    background-color: black;
 }
 .positions h4{
     font-size: 18px;
@@ -158,9 +159,30 @@
 .organisationPosition img{
     width: 150px ;
     height: 150px;
-    background-color: black;
+    background-color: var(--alternate-color);
     background-position: initial;
     border-top-right-radius: 40%;
+}
+.cysdActivities{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20px 100px 20px;
+    align-items: center;
+}
+.cysdActivities img{
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+}
+.cysdActivitiesRight{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    color: white;
+    text-align: left;
+    gap: 10px;
+    list-style: square;
 }
 @media screen and (max-width: 1040px) {
     .organisationPosition{
@@ -178,6 +200,15 @@
     }
     .vision h3{
         height: 500px;
+    }
+    .cysdActivities{
+        flex-direction: column-reverse;
+        padding-top: 50px;
+        gap: 40px;
+    }
+    .cysdActivitiesRight{
+        width: 100%;
+
     }
 }
 
@@ -251,5 +282,8 @@
     .organisationPosition img{
         width: 120px ;
         height: 100px;
+    }
+    .cysdActivities img{
+        height: 200px;
     }
 }

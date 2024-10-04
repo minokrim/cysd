@@ -52,10 +52,10 @@ export default function Footer(){
         <section className="footerSection footer">
             <h3>Home</h3>
             <div>
-                <p>About us</p>
-                <p>What we do</p>
-                <p>Media</p>
-                <p>Contact</p>
+                <Link to="/about" className="footerSocialsLink"><p>About us</p></Link>
+                <Link to="/whatwedo" className="footerSocialsLink"><p>What we do</p></Link>
+                <Link to="/getinvolved" className="footerSocialsLink"><p>Media</p></Link>
+                <Link to="/contact" className="footerSocialsLink"><p>Contact</p></Link>
             </div>
         </section>
         <section className="footerSocials footer">

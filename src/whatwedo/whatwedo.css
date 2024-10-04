@@ -5,7 +5,6 @@
     color: var(--primary-color);
     justify-content: space-around;
     text-align: left;
-    margin-top: -100px;
 }
 .farmerimagecontainer{
     display: flex;

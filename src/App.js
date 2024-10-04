@@ -5,10 +5,12 @@ import Whatwedo from './whatwedo/whatwedo';
 import Contact from './contact/contact';
 import Getinvolved from './getinvolved/getinvolved';
 import {Routes,HashRouter, Route} from 'react-router-dom'
+import ScrollToTop from './components/scrolltotop';
 function App() {
   return (
     <div className="App">
           <HashRouter>
+            <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Body/>}/>
         <Route path="/about" element={<Aboutus/>}/>
