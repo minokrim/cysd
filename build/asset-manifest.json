@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cysd/static/css/main.8dedd454.css",
-    "main.js": "/cysd/static/js/main.969ac403.js",
+    "main.css": "/cysd/static/css/main.1c8d1a02.css",
+    "main.js": "/cysd/static/js/main.d7d07a5d.js",
     "static/js/453.708e38c1.chunk.js": "/cysd/static/js/453.708e38c1.chunk.js",
     "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/cysd/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
     "static/media/africanboy4.jpg": "/cysd/static/media/africanboy4.94199e7a38d658f35464.jpg",
@@ -81,12 +81,12 @@
     "static/media/justice.png": "/cysd/static/media/justice.0089c6ce7d4de82d731f.png",
     "static/media/revicons.woff": "/cysd/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cysd/index.html",
-    "main.8dedd454.css.map": "/cysd/static/css/main.8dedd454.css.map",
-    "main.969ac403.js.map": "/cysd/static/js/main.969ac403.js.map",
+    "main.1c8d1a02.css.map": "/cysd/static/css/main.1c8d1a02.css.map",
+    "main.d7d07a5d.js.map": "/cysd/static/js/main.d7d07a5d.js.map",
     "453.708e38c1.chunk.js.map": "/cysd/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dedd454.css",
-    "static/js/main.969ac403.js"
+    "static/css/main.1c8d1a02.css",
+    "static/js/main.d7d07a5d.js"
   ]
 }

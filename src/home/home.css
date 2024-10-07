@@ -239,6 +239,10 @@ button{
 }
 
 @media screen and (max-width:660px){
+    .landingImage img{
+        width: 100%;
+        height: 100vh;
+    }
     .imageDesc{
         font-size: 35px;
         width: 85%;
@@ -252,7 +256,7 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 50px;
+        padding-top: 150px;
         padding-left: 10px;
     }
     .aboutLeftSection{

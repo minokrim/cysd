@@ -65,7 +65,7 @@ export default function Whatwedo(){
         </section>
         <section className="documentary">
             <h2>What we do for the community</h2>
-            <iframe src="https://www.youtube.com/embed/xQ_-P_nrnxM"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className="documentaryVideo" title="vid1"></iframe>
+            <iframe src="https://www.youtube.com/embed/6z0QNZID-HY?si=0WTe4prfVnFsJO3W" title="YouTube video player"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className="documentaryVideo"></iframe>
             </section>
         <section className="whatwedo-services">
             <section className="service-section">
