@@ -4,10 +4,12 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import africanboy from "../images/africanboy4.jpg"
 import Founder from "../components/Founder";
-import structure from "../images/orgstructure.jpg";
+import structure from "../images/stafftable.jpg";
 import vocational from "../images/vocational.jpeg";
 import Contribute from "../components/contribute";
 import Staff from "../content/staff";
+import ScrollToTopButton from "../components/scrollbutton";
+
 export default function Aboutus(){
 
     function renderStaff(staff){
@@ -70,16 +72,18 @@ export default function Aboutus(){
             <section className="chart">
                 <h2>Meet Our Team</h2>
                 <p>At the heart of our mission is a dedicated team of passionate professionals committed to driving positive change in our communities. Each member brings a unique blend of skills, experience, and a deep commitment to our vision of empowering individuals through education, development, and sustainability. Together, we work tirelessly to create opportunities, foster growth, and make a lasting impact on the lives we touch. Meet the people who are turning our vision into reality, one step at a time.</p>
-                <img src={structure} alt="CYMD structure organisation" />
                 <div className="organisationPosition">
                     {Staff.map((staff)=>(
                         <div key={staff.id} className="positions">
-                            <img src={staff.img} alt="" />
+                            <img src={staff.img} alt="" className="staff-img"/>
+                            <div className="staff-det">
                             <h4>{staff.name}</h4>
                             <h5>{staff.position}</h5>
+                            </div>
                         </div>
                     ))}
                 </div>
+                <img src={structure} alt="CYMD structure organisation" />
             </section>
             <Contribute/>
         </div>

@@ -33,7 +33,7 @@
 .navMain{
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: relative;
     z-index: 3;
     width: 100%;
     background-color: transparent;

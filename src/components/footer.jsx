@@ -5,7 +5,7 @@ import sponsor2 from "../images/sponsor2.png"
 import { Link } from "react-router-dom";
 import axios from "axios";
 import Swal from 'sweetalert2'
-
+import ScrollToTopButton from "../components/scrollbutton";
 export default function Footer(){
     const [email,setEmail]=useState("");
 
@@ -81,5 +81,6 @@ export default function Footer(){
         <img src={sponsor2} alt="" />
         </section>
         </section>
+        <ScrollToTopButton/>
     </div>
 }

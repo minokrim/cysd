@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cysd/static/css/main.1c8d1a02.css",
-    "main.js": "/cysd/static/js/main.d7d07a5d.js",
+    "main.css": "/cysd/static/css/main.d5430764.css",
+    "main.js": "/cysd/static/js/main.e8ed6f08.js",
     "static/js/453.708e38c1.chunk.js": "/cysd/static/js/453.708e38c1.chunk.js",
     "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/cysd/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
     "static/media/africanboy4.jpg": "/cysd/static/media/africanboy4.94199e7a38d658f35464.jpg",
+    "static/media/stafftable.jpg": "/cysd/static/media/stafftable.423645a03515febf6a96.jpg",
     "static/media/top-view-childs-feet-around-football-ball.jpg": "/cysd/static/media/top-view-childs-feet-around-football-ball.96c36e599ef529614d7a.jpg",
     "static/media/high-angle-friends-with-face-mask-concept.jpg": "/cysd/static/media/high-angle-friends-with-face-mask-concept.363ed92f64285d88e0c7.jpg",
     "static/media/blackkid.jpg": "/cysd/static/media/blackkid.116ea4b8e1805cf17795.jpg",
-    "static/media/orgstructure.jpg": "/cysd/static/media/orgstructure.fb562e3a9de4776df7e0.jpg",
     "static/media/africanboy3.jpg": "/cysd/static/media/africanboy3.df7b815b6ecbb873b666.jpg",
     "static/media/vp.png": "/cysd/static/media/vp.f4a917a2ac538070a541.png",
     "static/media/matilda.png": "/cysd/static/media/matilda.03670cf14275ccba980e.png",
@@ -42,6 +42,7 @@
     "static/media/twitter.png": "/cysd/static/media/twitter.95faa27072175ad0003d.png",
     "static/media/whatsapp.png": "/cysd/static/media/whatsapp.a469ead72bafc70fa0c9.png",
     "static/media/instagram.png": "/cysd/static/media/instagram.b9c36b6072431382223d.png",
+    "static/media/scroll.png": "/cysd/static/media/scroll.c10a7aba07723f8057fa.png",
     "static/media/world-humanitarian-day.png": "/cysd/static/media/world-humanitarian-day.70b526b15b3653dfa508.png",
     "static/media/coordination.png": "/cysd/static/media/coordination.54d0f130dd6fbdd6dca8.png",
     "static/media/authority.png": "/cysd/static/media/authority.84235290a7eb00717944.png",
@@ -81,12 +82,12 @@
     "static/media/justice.png": "/cysd/static/media/justice.0089c6ce7d4de82d731f.png",
     "static/media/revicons.woff": "/cysd/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cysd/index.html",
-    "main.1c8d1a02.css.map": "/cysd/static/css/main.1c8d1a02.css.map",
-    "main.d7d07a5d.js.map": "/cysd/static/js/main.d7d07a5d.js.map",
+    "main.d5430764.css.map": "/cysd/static/css/main.d5430764.css.map",
+    "main.e8ed6f08.js.map": "/cysd/static/js/main.e8ed6f08.js.map",
     "453.708e38c1.chunk.js.map": "/cysd/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c8d1a02.css",
-    "static/js/main.d7d07a5d.js"
+    "static/css/main.d5430764.css",
+    "static/js/main.e8ed6f08.js"
   ]
 }
