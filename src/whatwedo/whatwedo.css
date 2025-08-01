@@ -1,0 +1,206 @@
+.whatwedo-heading{
+    display: flex;
+    background-color: var(--secondary-color);
+    padding: 150px 20px 100px 20px;
+    color: var(--primary-color);
+    justify-content: space-around;
+    text-align: left;
+}
+.farmerimagecontainer{
+    display: flex;
+    align-items: center;
+}
+.whatwedo-leftSection{
+    width: 50%;
+}
+.whatwedo-desc{
+    width: 80%;
+}
+.whatwedo-leftSection>h1{
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Roboto Extra Bold";
+}
+.whatwedo-heading img{
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.whatwedo-services{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+.service-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.serv{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+}
+.serv img{
+    width: auto;
+    height: 50px;
+}
+.serv p{
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Roboto Regular";
+}
+.documentary{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.documentary>h2{
+    font-size: 3em;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: "Roboto Extra Bold";
+
+}
+.documentaryVideo{
+    width: 90%;
+    height: 50em;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 80px;
+    object-fit: contain;
+
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.video-sec1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.video-sec1 iframe{
+    border-radius: 50px;
+    width:450px;
+    height: 350px;
+}
+.frame1{
+background-color: white;
+}
+.videoTitle{
+    padding: 50px 50px;
+}
+.videoTitle h2{
+    font-size: 50px;
+    font-family: "Roboto Black Italic";
+}
+.video-sec2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.video-sec2 iframe{
+    border-radius: 50px;
+    width:450px;
+    height: 300px;
+}
+.values-principles{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 50px;
+}
+.mobileHeading{
+    display: none;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 1040px) {
+    .video-sec1{
+        gap: 25px;
+    }
+    .video-sec1 iframe{
+        width: 250px;
+    }
+    .video-sec2{
+        gap: 25px;
+    }
+    .video-sec2 iframe{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .mobileHeading{
+        display: flex;
+    }
+    .whatwedo-services{
+        padding: 2em;
+    }
+    .whatwedo-heading{
+        flex-direction: column;
+    }
+    .whatwedo-leftSection{
+        width: 100%;
+    }
+    .whatwedo-leftSection>h1{
+        font-size: 2em  ;
+    }
+    .whatwedo-desc{
+        padding: 1em;
+    }
+    .whatwedo-heading img{
+        width: auto;
+        height: 15em;
+        object-fit: contain;
+    }
+    .documentary{
+        padding: 3em;
+    }
+    .documentaryVideo{
+        width: auto;
+        height: 15em;
+        margin-left: 0px;
+        object-fit: contain;
+    }
+    .videos{
+        gap: 50px;
+    }
+    .video-sec1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-sec1 iframe{
+        border-radius: 10px;
+        width:250px;
+        height: 200px;
+    }
+    .video-sec2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-sec2 iframe{
+        border-radius: 10px;
+        width:250px;
+        height: 200px;
+    }
+    .videoTitle{
+        display: none;
+    }
+}

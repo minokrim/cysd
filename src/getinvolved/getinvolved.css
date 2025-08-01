@@ -1,0 +1,367 @@
+.getinvolved-heading{
+    background-image: url("https://cysdcam.org/wp-content/uploads/2025/07/top-view-childs-feet-around-football-ball.96c36e599ef529614d7a-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    padding: 7em 0px 7em 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-getinvolved-heading{
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+}
+.left-getinvolved-heading>h1{
+    font-size: 3em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Roboto Extra Bold";
+}
+.left-getinvolved-heading>p{
+    font-family: "Roboto Medium";
+    font-size: 1em;
+}
+.left-getinvolved-heading-button{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.right-getinvolved-heading{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255,0.8);
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.right-getinvolved-heading form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+    margin-top: 10px;
+}
+.right-getinvolved-heading h2{
+    font-size: 25px;
+}
+.right-getinvolved-heading input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+.right-getinvolved-heading button{
+    width: 40%;
+    margin-top: 10px;
+}
+.program{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 50px;
+    background-color: var(--secondary-color);
+}
+.program-card{
+    background-color: rgb(255, 255, 255,0.5);
+    width: 350px;
+    text-align: left;
+    height: 350px;
+    border-bottom-right-radius: 100%;
+    backdrop-filter: blur(100px);
+    padding-left: 20px;
+}
+.program-card>p{
+    width: 90%;
+}
+.program-card button{
+    background-color: white;
+    color: red;
+    margin-top: 110px;
+}
+.program-card-holder1{
+    background-image: url("https://cysdcam.org/wp-content/uploads/2025/07/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7-scaled.webp");
+    background-position: right;
+    background-size: cover;
+    background-position-y: 100px;
+    background-position-x: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.program-card-holder2{
+    background-image: url("https://cysdcam.org/wp-content/uploads/2025/07/africanboy3.df7b815b6ecbb873b666.webp");
+    background-position: right;
+    background-size: cover;
+    background-position-y: 100px;
+    background-position-x: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.program-card-holder3{
+    background-image: url("https://cysdcam.org/wp-content/uploads/2025/07/high-angle-friends-with-face-mask-concept.363ed92f64285d88e0c7-scaled.webp");
+    background-position: right;
+    background-size: cover;
+    background-position-y: 100px;
+    background-position-x: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.sponsor{
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 50px 10px;
+    align-items: center;
+}
+.sponsor>p{
+    text-align: center;
+    width: 90%;
+    font-size: 1.2em;
+}
+.sponsorSections{
+    display: flex;
+    padding-bottom: 50PX;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.sponsorRight{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.sponsorDetails{
+    font-size: 18px;
+}
+.sponsorRight h4{
+    font-size: 35px;
+}
+.how-to-sponsor{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sponsorLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    align-items: center;
+}
+.impact{
+    border: 0.5px solid grey;
+    width: 20em;
+    padding: 1em;
+}
+.sponsorLeft h4{
+    font-size: 35px;
+}
+.impact-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.impact p{
+    width: 100%;
+}
+.sponsorLeft img{
+    width: auto;
+    height: 500px;
+}
+.steps{
+    border: 0.5px solid grey;
+    width: 20em;
+    padding: 1em;
+    text-align: left;
+}
+.steps p{
+    width: 100%;
+}
+.sponsor button{
+    width: 100%;
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+}
+.sponsoraChild{
+    text-decoration: none;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+.skill-roles{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 50px;
+}
+.skill-card{
+    border: 0.5px solid grey;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 25%;
+    padding: 1em;
+    border-radius: 20px;
+    background-color: black;
+}
+.skill-card h2{
+    font-size: 1.2em;
+    color: white;
+}
+.skill-card p{
+    font-size: 16px;
+    width: 100%;
+    color: var(--secondary-color);
+
+}
+.skill-card button{
+    margin-top: 20px;
+}
+.skill h3{
+    width: 90%;
+}
+.skill h4{
+    width: 90%;
+}
+
+@media screen and (max-width: 770px) {
+
+    .left-getinvolved-heading{
+        padding: 0em;
+        width: 50%;
+        margin: 3em;
+    }
+    .left-getinvolved-heading>h1{
+        font-size: 2em;
+    }
+    .right-getinvolved-heading{
+        margin: 3em;
+    }
+    .program{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .program-card{
+        background-repeat: no-repeat;
+    }
+    .sponsorSections{
+        flex-direction: column;
+    }
+    .sponsorSections h4{
+        text-align: center;
+    }
+    .sponsor{
+        align-items: center;
+        justify-content: center;
+    }
+    .skill-card{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .getinvolved-heading{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        padding-top: 100px;
+    }
+    .left-getinvolved-heading{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .left-getinvolved-heading h1{
+        width: 95%;
+        padding-left: 20px;
+    }
+    .left-getinvolved-heading p{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .left-getinvolved-heading button{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .right-getinvolved-heading{
+        width: 90%;
+        margin-right: 0px;
+    }
+    .program{
+        flex-direction: column;
+        padding: 20px;
+        gap: 50px;
+    }
+    .program-card{
+        width: 94%;
+    }
+    .program-card p{
+        width: 80%;
+    }
+    .program-card button{
+        margin-top: 20px;
+        width: 40%;
+    }
+    .sponsor{
+        padding-left: 20px;
+    }
+    .sponsor h2{
+        width: 100%;
+    }
+    .sponsorSections{
+        flex-direction: column;
+    }
+    .sponsorRight{
+        width: 100%;
+    }
+    .how-to-sponsor{
+        margin: 10px;
+    }
+    .steps{
+        width: 15em;
+    }
+
+    .impact{
+        width: 15em;
+    }
+
+    .impact-section{
+        margin: 10px;
+    }
+    .sponsorLeft{
+        width: 100%;
+    }
+    .sponsor button{
+        width: 100%;
+    }
+    .skill{
+        padding-bottom: 20px;
+    }
+    .skill-roles{
+        margin: 10px;
+    }
+    .skill-card{
+        width: 100%;
+        height: max-content;
+    }
+}
