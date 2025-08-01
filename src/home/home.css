@@ -48,6 +48,7 @@
 .landingImage img{
     width: 100%;
     height: 105vh;
+    object-fit: cover;
 }
 .imageDesc{
     width: 55%;
@@ -77,9 +78,7 @@
 .aboutSection{
     display: flex;
     background-color: var(--secondary-color);
-    padding-top: 150px;
-    padding-bottom: 10rem;
-    padding-right: 15px;
+    padding: 10rem 5rem;
     align-items: center;
 }
 .aboutLeftSection{
@@ -125,7 +124,7 @@ h2{
 }
 .homeSectionImages{
     width: 50%;
-    height: 400px;
+    height: auto;
     border-radius: 20px;
 }
 button{
@@ -140,9 +139,7 @@ button{
     cursor: pointer;
 }
 .whatWeDoSection{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 15px;
+    padding: 5rem;
     display: flex;
 }
 .whatWeDoLeftSection{
@@ -185,12 +182,12 @@ button{
 }
 .whatwedoImageContainer{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     width: 50%;
 }
 .whatWeDoImage{
-    height: 70%;
+    height: auto;
     width: 95%;
 }
 @media screen and (max-width: 1040px) {
@@ -241,7 +238,8 @@ button{
 @media screen and (max-width:660px){
     .landingImage img{
         width: 100%;
-        height: 100vh;
+        height: 105vh;
+        object-fit: cover;
     }
     .imageDesc{
         font-size: 35px;
@@ -254,20 +252,21 @@ button{
     }
     .aboutSection{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 150px;
-        padding-left: 10px;
+        justify-content: flex-start;
+        align-items: start;
+        padding: 2em;
     }
     .aboutLeftSection{
         width: 100%;
+        padding-left: 0px;
+        margin-top: 5em;
+
     }
     .homeSectionImages{
         width: 95%;
-        height: 300px;
+        height: auto;
         border-radius: 20px;
-        margin-top: 20px;
-        margin-left: 20px;
+        object-fit: cover;
     }
     .homeSectionTitle #divider{
         border: 1.5px solid var(--primary-color);
@@ -275,11 +274,14 @@ button{
     }
     .whatWeDoSection{
         flex-direction: column;
-        padding-left: 20px;
+        padding: 1.5rem;
+        
+
     }
     .whatWeDoLeftSection{
         width: 100%;
-        padding-left: 10px;
+        padding-left: 0;
+
     }
     #whatWeDoDesc{
         width: 100%;
@@ -302,8 +304,9 @@ button{
     .whatWeDoImage{
         height: auto;
         width: 100%;
-        margin-top: 50px;
+        margin-top: 5rem;
         align-self: center;
+        object-fit: cover;
     }
     .projectsSection{
         display: flex;

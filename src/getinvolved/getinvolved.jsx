@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./getinvolved.css"
 import Footer from "../components/footer";
 import Nav from "../components/nav";
@@ -12,6 +12,8 @@ import Swal from 'sweetalert2'
 export default function Getinvolved(){
     const [name, setName]=useState("")
     const [email,setEmail]=useState("")
+
+
 
     function handleSubmit(e){
         e.preventDefault()
@@ -42,6 +44,7 @@ export default function Getinvolved(){
           });
        })
     }
+
     return <div>
         <Nav/>
         <section className="getinvolved-heading">
@@ -107,7 +110,7 @@ export default function Getinvolved(){
             <section className="impact-section">
             <div className="impact">
                     <h3>1. Education for All</h3>
-                    <p>Your sponsorship ensures that a child, who may otherwise be denied an education, has the opportunity to attend school regularly.n</p>
+                    <p>Your sponsorship ensures that a child, who may otherwise be denied an education, has the opportunity to attend school regularly.</p>
                 </div>
                 <div className="impact">
                     <h3>2. Breaking the Cycle of Poverty</h3>
@@ -115,7 +118,7 @@ export default function Getinvolved(){
                 </div>
                 <div className="impact">
                     <h3>3. Empowering Communities</h3>
-                    <p>When you sponsor a child, you contribute to the development of entire communities. Educated individuals become agents of positive change.</p>
+                    <p>When you sponsor a child, you contribute to the development of communities. Educated individuals become agents of change.</p>
                 </div>
             </section>
             </div>

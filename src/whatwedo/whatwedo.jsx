@@ -121,7 +121,6 @@ export default function Whatwedo(){
         </Carousel>
         </section>
         <Contribute/>
-        <Project/>
         <Footer/>
     </div>
 }

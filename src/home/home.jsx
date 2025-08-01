@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../components/nav";
-import landingImage8 from "../images/landingimage10.jpeg"
+import landingImage8 from "../images/lpimg.png"
 import landingImage1 from "../images/kidsmaterials.jpg"
 import landingImage2 from "../images/landingimage3.JPG"
 import education from "../images/education.png"
@@ -32,7 +32,7 @@ export default function Body(){
     return <div className="homeBody">
         <Nav/>
         <section className="landingImage">
-            <img src={landingImage8} alt="smiling children" />
+            <img src="https://cysdcam.org/wp-content/uploads/2025/07/lpimg.webp" alt="smiling children" fetchpriority="high" loading="eager"/>
             <section className="descHolder">
             <h2 className="imageDesc"><span ref={el} /></h2>
             </section>
@@ -89,7 +89,6 @@ export default function Body(){
             <img src={landingImage2} alt="" className="homeSectionImages whatWeDoImage"/>
             </div>
             </section>
-        <Project/>
         <Donationbreakdwon/>
         <Contribute/>
         <Footer/>

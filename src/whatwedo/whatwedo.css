@@ -16,7 +16,7 @@
 .whatwedo-desc{
     width: 80%;
 }
-.whatwedo-heading h1{
+.whatwedo-leftSection>h1{
     font-size: 50px;
     margin-top: 0px;
     padding-top: 0px;
@@ -65,8 +65,8 @@
     justify-content: center;
     align-items: center;
 }
-.documentary h2{
-    font-size: 45px;
+.documentary>h2{
+    font-size: 3em;
     margin-bottom: 50px;
     margin-top: 10px;
     font-family: "Roboto Extra Bold";
@@ -74,10 +74,12 @@
 }
 .documentaryVideo{
     width: 90%;
-    height: 500px;
+    height: 50em;
     background-color: white;
     border-radius: 10px;
     margin-left: 80px;
+    object-fit: contain;
+
 }
 .videos{
     display: flex;
@@ -149,8 +151,7 @@ background-color: white;
         display: flex;
     }
     .whatwedo-services{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 2em;
     }
     .whatwedo-heading{
         flex-direction: column;
@@ -158,21 +159,25 @@ background-color: white;
     .whatwedo-leftSection{
         width: 100%;
     }
+    .whatwedo-leftSection>h1{
+        font-size: 2em  ;
+    }
     .whatwedo-desc{
-        width: 90%;
-        padding-bottom: 20px;
+        padding: 1em;
     }
     .whatwedo-heading img{
-        height: 300px;
-        margin-top: 50px;
+        width: auto;
+        height: 15em;
+        object-fit: contain;
     }
     .documentary{
-        padding: 10px;
+        padding: 3em;
     }
     .documentaryVideo{
-        width: 100%;
-        height: 300px;
+        width: auto;
+        height: 15em;
         margin-left: 0px;
+        object-fit: contain;
     }
     .videos{
         gap: 50px;

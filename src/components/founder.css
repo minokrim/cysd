@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3rem;
 }
 .founderBody{
     display: flex;
@@ -12,7 +13,7 @@
     padding: 0px 50px 100px 20px;
     align-items: center;
 }
-.founderBody p{
+.founderBody>p{
     color: var(--primary-color);
     font-weight: lighter;
     font-size: 16px;
@@ -23,13 +24,14 @@
     color: var(--primary-color);
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+    height: 40em;
 }
 .founderDetails{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 70px;
 }
 .founderDetails img{
     width: 250px;
@@ -57,6 +59,13 @@
     width: auto;
     height: 30px;
 }
+.founderAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
 .founderAbout h4{
     font-size: 24px;
     font-family: "Roboto Medium";
@@ -70,6 +79,18 @@
 
 }
 
+@media screen and (max-width:770px) {
+    .founder{
+        flex-direction: column;
+        height: 100%;
+    }
+    .founderBody>p{
+        width: 100%;
+    }
+    .founderAbout{
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width:660px) {
     .founderBody{
@@ -83,6 +104,9 @@
     }
     .founder{
         flex-direction: column;
+    }
+    .founderDetails{
+        margin-top: 2em;
     }
     .founderAbout{
         padding-left: 10px;

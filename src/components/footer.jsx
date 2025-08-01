@@ -75,7 +75,7 @@ export default function Footer(){
         </div>
         </section>
         <section className="mapSection">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31834.518914641958!2d9.296842!3d4.158364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106131c08c3bc5c7%3A0xc1f2ead9d66dc367!2sMile%20Eighteen%2018%20Junction!5e0!3m2!1sen!2scm!4v1725424901953!5m2!1sen!2scm" width="300" height="250" style={{border:0 }}allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="map"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31834.518914641958!2d9.296842!3d4.158364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106131c08c3bc5c7%3A0xc1f2ead9d66dc367!2sMile%20Eighteen%2018%20Junction!5e0!3m2!1sen!2scm!4v1725424901953!5m2!1sen!2scm" width="300" height="250" style={{border:0 }}allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="map"></iframe>
         <section className="sponsorHolder">
         <img src={sponsor1} alt="" />
         <img src={sponsor2} alt="" />

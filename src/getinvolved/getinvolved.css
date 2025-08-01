@@ -1,31 +1,31 @@
 .getinvolved-heading{
-    background-image: url("../images/top-view-childs-feet-around-football-ball.jpg");
+    background-image: url("https://cysdcam.org/wp-content/uploads/2025/07/top-view-childs-feet-around-football-ball.96c36e599ef529614d7a-scaled.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
     position: relative;
-    padding: 100px 0px 100px 0px;
+    padding: 7em 0px 7em 0px;
     color: white;
     display: flex;
     align-items: center;
-    gap: 100px;
+    justify-content: space-around;
 }
 .left-getinvolved-heading{
     width: 50%;
     text-align: left;
     padding-left: 30px;
 }
-.left-getinvolved-heading h1{
-    font-size: 50px;
+.left-getinvolved-heading>h1{
+    font-size: 3em;
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-family: "Roboto Extra Bold";
 }
-.left-getinvolved-heading p{
+.left-getinvolved-heading>p{
     font-family: "Roboto Medium";
-    font-size: 18px;
+    font-size: 1em;
 }
 .left-getinvolved-heading-button{
     display: flex;
@@ -78,7 +78,7 @@
     backdrop-filter: blur(100px);
     padding-left: 20px;
 }
-.program-card p{
+.program-card>p{
     width: 90%;
 }
 .program-card button{
@@ -87,7 +87,7 @@
     margin-top: 110px;
 }
 .program-card-holder1{
-    background-image: url("../images/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg");
+    background-image: url("https://cysdcam.org/wp-content/uploads/2025/07/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7-scaled.webp");
     background-position: right;
     background-size: cover;
     background-position-y: 100px;
@@ -96,7 +96,7 @@
     background-position: center;
 }
 .program-card-holder2{
-    background-image: url("../images/africanboy3.jpg");
+    background-image: url("https://cysdcam.org/wp-content/uploads/2025/07/africanboy3.df7b815b6ecbb873b666.webp");
     background-position: right;
     background-size: cover;
     background-position-y: 100px;
@@ -107,7 +107,7 @@
 
 }
 .program-card-holder3{
-    background-image: url("../images/high-angle-friends-with-face-mask-concept.jpg");
+    background-image: url("https://cysdcam.org/wp-content/uploads/2025/07/high-angle-friends-with-face-mask-concept.363ed92f64285d88e0c7-scaled.webp");
     background-position: right;
     background-size: cover;
     background-position-y: 100px;
@@ -124,8 +124,10 @@
     padding: 10px 20px 50px 10px;
     align-items: center;
 }
-.sponsor p{
-    text-align: left;
+.sponsor>p{
+    text-align: center;
+    width: 90%;
+    font-size: 1.2em;
 }
 .sponsorSections{
     display: flex;
@@ -160,8 +162,8 @@
 }
 .impact{
     border: 0.5px solid grey;
-    width: 400px;
-    padding-left: 10px;
+    width: 20em;
+    padding: 1em;
 }
 .sponsorLeft h4{
     font-size: 35px;
@@ -180,8 +182,8 @@
 }
 .steps{
     border: 0.5px solid grey;
-    width: 400px;
-    padding-left: 10px;
+    width: 20em;
+    padding: 1em;
     text-align: left;
 }
 .steps p{
@@ -200,7 +202,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0px 50px 0px;
+    padding: 1em;
 }
 .skill-roles{
     display: flex;
@@ -217,14 +219,13 @@
     flex-direction: column;
     align-items: center;
     text-align: left;
-    width: 300px;
-    height: 250px;
-    padding: 20px;
+    width: 25%;
+    padding: 1em;
     border-radius: 20px;
     background-color: black;
 }
 .skill-card h2{
-    font-size: 25px;
+    font-size: 1.2em;
     color: white;
 }
 .skill-card p{
@@ -243,12 +244,18 @@
     width: 90%;
 }
 
-@media screen and (max-width: 1040px) {
-    .getinvolved-heading{
-        padding-top: 200px;
+@media screen and (max-width: 770px) {
+
+    .left-getinvolved-heading{
+        padding: 0em;
+        width: 50%;
+        margin: 3em;
+    }
+    .left-getinvolved-heading>h1{
+        font-size: 2em;
     }
     .right-getinvolved-heading{
-        margin-right: 50px;
+        margin: 3em;
     }
     .program{
         display: flex;
@@ -267,6 +274,9 @@
     .sponsor{
         align-items: center;
         justify-content: center;
+    }
+    .skill-card{
+        width: 40%;
     }
 }
 
@@ -328,21 +338,13 @@
         margin: 10px;
     }
     .steps{
-        width: 100%;
-        padding-left: 0px;
+        width: 15em;
     }
-    .steps p{
-        width: 90%;
-        padding-left: 10px;
-    }
+
     .impact{
-        width: 100%;
-        padding-left: 0px;
+        width: 15em;
     }
-    .impact p{
-        width: 90%;
-        padding-left: 10px;
-    }
+
     .impact-section{
         margin: 10px;
     }
@@ -359,7 +361,7 @@
         margin: 10px;
     }
     .skill-card{
-        width: 90%;
+        width: 100%;
         height: max-content;
     }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
 import "./aboutus.css"
 import Nav from "../components/nav";
 import Footer from "../components/footer";
@@ -9,8 +9,23 @@ import vocational from "../images/vocational.jpeg";
 import Contribute from "../components/contribute";
 import Staff from "../content/staff";
 import ScrollToTopButton from "../components/scrollbutton";
+import axios from "axios";
 
 export default function Aboutus(){
+    const [team,setTeam]=useState([]);
+
+    function getstaffdata(){
+    axios.get('https://cysdcam.org/wp-json/wp/v2/posts?slug=Team')
+    .then((res)=>{
+        const data=JSON.parse(res.data[0].acf.children)
+        setTeam(data);
+    })
+      }
+
+          useEffect(() => {
+        getstaffdata()
+  }, []);
+
 
     function renderStaff(staff){
         return <Staff 
@@ -40,17 +55,15 @@ export default function Aboutus(){
             </section>
 
             <section className="missionBody">
-                <img src={africanboy} alt="" />
+                <img src="https://cysdcam.org/wp-content/uploads/2025/07/africanboy4.94199e7a38d658f35464-scaled.jpg" alt="" fetchpriority="high" loading="eager"/>
                 <section className="missionAndVision">
                 <div className="mission">
                     <p>OUR MISSION</p>
-                    <h3>We want to nurture minds and shape the future through programs in education, child development, community health, human right & governance, social and economic empowerment.</h3>
-                    {/* <h4>Our mission is that of nurturing minds and shaping the future for community regeneration and transformation. within this mission, we operate and run programs ranging from Education, child protection, Community Health, Human Rights & Governance, and Social and Economic Empowerment.</h4> */}
+                    <h3>We want to nurture minds and shape the future through programs in education, child development, community health, human right & governance.</h3>
                 </div>
                 <div className="vision">
                     <p>OUR VISION</p>
                     <h3>Our vision is to empower communities through access to opportunities and sustainable development. By fostering innovation, promoting inclusivity, and supporting long-term growth</h3>
-                    {/* <h4>We envision a future where every individual, regardless of background or circumstance, has access to quality education, economic opportunities, and a safe environment. By nurturing minds, we aim to break the cycle of poverty and inequality, empowering communities to thrive and create lasting, positive change.</h4> */}
                 </div>
                 </section>
             </section>
@@ -73,9 +86,9 @@ export default function Aboutus(){
                 <h2>Meet Our Team</h2>
                 <p>At the heart of our mission is a dedicated team of passionate professionals committed to driving positive change in our communities. Each member brings a unique blend of skills, experience, and a deep commitment to our vision of empowering individuals through education, development, and sustainability. Together, we work tirelessly to create opportunities, foster growth, and make a lasting impact on the lives we touch. Meet the people who are turning our vision into reality, one step at a time.</p>
                 <div className="organisationPosition">
-                    {Staff.map((staff)=>(
-                        <div key={staff.id} className="positions">
-                            <img src={staff.img} alt="" className="staff-img"/>
+                    {Staff.map((staff,index)=>(
+                        <div key={index} className="positions">
+                            <img src={staff.img} alt="" className="staff-img" loading="lazy"/>
                             <div className="staff-det">
                             <h4>{staff.name}</h4>
                             <h5>{staff.position}</h5>
@@ -83,7 +96,7 @@ export default function Aboutus(){
                         </div>
                     ))}
                 </div>
-                <img src={structure} alt="CYMD structure organisation" />
+                <img src={structure} alt="CYMD structure organisation" className="structure" />
             </section>
             <Contribute/>
         </div>
