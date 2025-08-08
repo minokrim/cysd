@@ -285,15 +285,15 @@
         display: flex;
         flex-direction: column;
         height: max-content;
-        padding-top: 100px;
+        padding-top: 4em;
     }
     .left-getinvolved-heading{
-        width: 100%;
-        padding-left: 0px;
+        width: 90%;
+        padding: 0;
     }
     .left-getinvolved-heading h1{
-        width: 95%;
-        padding-left: 20px;
+        width: 90%;
+        padding: 0;
     }
     .left-getinvolved-heading p{
         width: 90%;
@@ -304,8 +304,12 @@
         margin-top: 20px;
     }
     .right-getinvolved-heading{
-        width: 90%;
+        width: 80%;
         margin-right: 0px;
+        border-radius: 1em;
+    }
+    .right-getinvolved-heading button{
+        width: 70%;
     }
     .program{
         flex-direction: column;

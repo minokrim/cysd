@@ -59,11 +59,11 @@ export default function Aboutus(){
                 <section className="missionAndVision">
                 <div className="mission">
                     <p>OUR MISSION</p>
-                    <h3>We want to nurture minds and shape the future through programs in education, child development, community health, human right & governance.</h3>
+                    <h3>Drive lasting change by equipping communities, especially youth, women, and children, with the knowledge, skills, and resources they need for improved literacy, personal well-being, and economic self-sufficiency.</h3>
                 </div>
                 <div className="vision">
                     <p>OUR VISION</p>
-                    <h3>Our vision is to empower communities through access to opportunities and sustainable development. By fostering innovation, promoting inclusivity, and supporting long-term growth</h3>
+                    <h3>Build Communities where literacy, well-being, and economic independence are accessible to all especially the most vulnerable</h3>
                 </div>
                 </section>
             </section>

@@ -9,25 +9,15 @@
 .aboutusHeader{
     position: relative;
     display: flex;
-<<<<<<< HEAD
-    padding-top: 150px;
-    padding-bottom: 200px;
-    align-items: center;
-=======
     padding: 12em 10em 20em 10em;
     align-items: center;
     justify-content: space-around;
->>>>>>> origin/updates
     background-color: var(--secondary-color);
     z-index: 0;
 }
 .leftHeader{
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-    padding-left: 100px;
-=======
->>>>>>> origin/updates
     text-align: left;
 }
 .leftTitle{
@@ -50,19 +40,11 @@
 }
 .rightHeader{
     display: flex;
-<<<<<<< HEAD
-    text-align: left;
-=======
->>>>>>> origin/updates
     color: var(--primary-color);
     font-family: "Roboto Medium";
     font-size: 18px;
 }
-<<<<<<< HEAD
-.rightHeader ul{
-=======
 .rightHeader>ul{
->>>>>>> origin/updates
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -81,26 +63,25 @@
     position: relative;
     z-index: 1;
     margin-top: -190px;
-<<<<<<< HEAD
-=======
     object-fit: cover;
->>>>>>> origin/updates
 }
 .missionAndVision{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left;
-    margin-top: 100px;
     width: 100%;
+    height: 100%;
+    margin-top: 5em;
 }
 .mission{
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-left: 20px;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    text-align: center;
 }
 .mission  p{
     color: var(--primary-color);
@@ -122,9 +103,10 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-left: 10px;
     align-items: center;
     justify-content: center;
+    height: 100%;
+
 }
 .vision  p{
     color: var(--primary-color);
@@ -143,16 +125,11 @@
     font-size: 16px;
 }
 .chart{
-<<<<<<< HEAD
-    padding: 50px 100px;
-    background-color: #ffffff;
-=======
     padding: 5em 5em 0 5em;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
->>>>>>> origin/updates
 }
 .chart h2{
     font-size: 50px;
@@ -163,30 +140,19 @@
     color: var(--alternate-color);
     text-align: left;
 }
-<<<<<<< HEAD
-.chart img{
-    width: 80%;
-    height: auto;
-    margin-top: 0px;
-=======
 .chart>img{
     width: 80%;
     height: auto;
     margin-top: 5em;
->>>>>>> origin/updates
     padding-top: 0px;
 }
 .organisationPosition{
     display: flex;
     flex-wrap: wrap;
-<<<<<<< HEAD
-    gap: 50px;
-=======
     align-items: center;
     justify-content: center;
     gap: 50px;
     margin-top: 5em;
->>>>>>> origin/updates
 }
 .positions{
     width: 250px;
@@ -222,10 +188,6 @@
     background-color: rgb(255, 255, 255,0.8);
     color: black;
     position: relative;
-<<<<<<< HEAD
-    /* margin-top: -100px; */
-=======
->>>>>>> origin/updates
     bottom: 50px;
     width: 100%;
     border-radius: 10px;
@@ -234,29 +196,14 @@
     flex-direction: column;
     align-items: center;
 }
-<<<<<<< HEAD
-.organisationPosition img{
-    width: 150px ;
-    height: 100%;
-    background-position: initial;
-=======
 .staff-img{
     width: auto;
     height: 15em;
->>>>>>> origin/updates
 }
 .cysdActivities{
     background-color: black;
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
-    padding: 100px 20px 100px 20px;
-    align-items: center;
-}
-.cysdActivities img{
-    width: auto;
-    height:400px;
-=======
     align-items: center;
     padding: 5rem;
 }
@@ -264,7 +211,6 @@
     width: auto;
     height:25em;
     object-fit: cover;
->>>>>>> origin/updates
     border-radius: 20px;
 }
 .cysdActivitiesRight{
@@ -273,14 +219,6 @@
     width:50%;
     color: white;
     text-align: left;
-<<<<<<< HEAD
-    gap: 10px;
-    list-style: square;
-}
-@media screen and (max-width: 1040px) {
-    .organisationPosition{
-        gap: 20px;
-=======
     gap: 3em;
     list-style: square;
 
@@ -292,7 +230,6 @@
     }
     .organisationPosition{
         gap: 50px;
->>>>>>> origin/updates
     }
     .positions{
         width: 250px;
@@ -301,11 +238,16 @@
         width: 250px;
         text-align: center;
     }
+    .missionAndVision{
+        padding: 3em;
+        width: 80%;
+        gap: 1em;
+    }
     .mission h3{
-        height: 500px;
+        height: 20em;
     }
     .vision h3{
-        height: 500px;
+        height: 20em;
     }
     .cysdActivities{
         flex-direction: column-reverse;
@@ -325,34 +267,23 @@
     }
     .aboutusHeader{
         flex-direction: column;
-<<<<<<< HEAD
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .leftHeader{
-        padding-left: 10px;
-=======
         padding: 2em;
 
     }
     .leftHeader{
         padding-left: 0;
         margin-top: 5em;
->>>>>>> origin/updates
     }
     .leftHeader h2{
         font-size: 25px;
         width: 100%;
     }
-<<<<<<< HEAD
-=======
     .rightHeader{
         margin-bottom: 5em;
     }
     .rightHeader>ul{
         font-size: 0.8em;
     }
->>>>>>> origin/updates
     .missionBody img{
         height: 200px;
         margin-top: -100px;
@@ -360,11 +291,6 @@
     .missionAndVision{
         flex-direction: column;
         margin-top: 50px;
-<<<<<<< HEAD
-    }
-    .mission{
-        width: 90%;
-=======
         align-items: center;
         justify-content: center;
 
@@ -374,7 +300,6 @@
         padding-left: 0px;
         text-align: center;
 
->>>>>>> origin/updates
     }
     .mission h3{
         width: 100%;
@@ -386,13 +311,9 @@
     }
     .vision{
         width: 90%;
-<<<<<<< HEAD
-        padding-left: 20px;
-=======
         padding-left: 0px;
         text-align: center;
 
->>>>>>> origin/updates
     }
     .vision h3{
         font-size: 25px;
@@ -403,11 +324,7 @@
         width: 100%;
     }
     .chart{
-<<<<<<< HEAD
-        padding: 0px;
-=======
         padding: 1em;
->>>>>>> origin/updates
     }
     .chart p{
         padding-left: 10px;
@@ -418,36 +335,21 @@
         margin-top: 20px;
     }
     .organisationPosition{
-<<<<<<< HEAD
-=======
         margin-top: 3em;
->>>>>>> origin/updates
         gap: 50px;
         align-items: center;
         justify-content: center;
     }
-<<<<<<< HEAD
-=======
     .structure{
         width: 100%;
         height: auto;
         margin-top: 10em;
     }
->>>>>>> origin/updates
     .positions{
         height: 200px;
     }
     .staff-img{
         width: auto;
-<<<<<<< HEAD
-        height: 50px;
-    }
-    .staff-det{
-
-    }
-    .cysdActivities img{
-        height: 200px;
-=======
         height: 10em;
     }
     .cysdActivities{
@@ -460,6 +362,5 @@
         width: 100%;
         height: auto;
         object-fit: cover;
->>>>>>> origin/updates
     }
 }

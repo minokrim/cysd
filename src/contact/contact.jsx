@@ -25,11 +25,12 @@ export default function Contact(){
                 <h2>Lets talk!</h2>
                 <p>+237-674-679-298</p>
                 <p>+237-654-549-610</p>
+                <p>+237-698-025-872</p>
                 <p>info@cysdcam</p>
             </div>
             <div className="office">
                 <h2>Head office</h2>
-                <p>Mile Eighteen 18 Junction</p>
+                <p>Wonya Mavio mile 18 Buea  Soutnhwest Region Cameroon</p>
             </div>
             <div className="social">
                 <Link to="https://www.instagram.com/cysdcameroon/" target="_blank"><img src={ig} alt="" /></Link>

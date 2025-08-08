@@ -6,10 +6,7 @@ import Contact from './contact/contact';
 import Getinvolved from './getinvolved/getinvolved';
 import {Routes,HashRouter, Route} from 'react-router-dom'
 import ScrollToTop from './components/scrolltotop';
-<<<<<<< HEAD
-=======
 import ContentContext from './context/contentContext';
->>>>>>> origin/updates
 function App() {
   return (
     <div className="App">

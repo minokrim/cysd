@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/wp-content/reactpress/apps/landingpage/static/css/main.b66a91a9.css",
-    "main.js": "/wp-content/reactpress/apps/landingpage/static/js/main.d8592cbd.js",
+    "main.css": "/wp-content/reactpress/apps/landingpage/static/css/main.3f770484.css",
+    "main.js": "/wp-content/reactpress/apps/landingpage/static/js/main.3b1d6135.js",
     "static/js/453.708e38c1.chunk.js": "/wp-content/reactpress/apps/landingpage/static/js/453.708e38c1.chunk.js",
-    "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/wp-content/reactpress/apps/landingpage/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
     "static/media/africanboy4.jpg": "/wp-content/reactpress/apps/landingpage/static/media/africanboy4.94199e7a38d658f35464.jpg",
+    "static/media/lpimg.png": "/wp-content/reactpress/apps/landingpage/static/media/lpimg.25154290d1f16cbbfe5b.png",
     "static/media/stafftable.jpg": "/wp-content/reactpress/apps/landingpage/static/media/stafftable.423645a03515febf6a96.jpg",
-    "static/media/top-view-childs-feet-around-football-ball.jpg": "/wp-content/reactpress/apps/landingpage/static/media/top-view-childs-feet-around-football-ball.96c36e599ef529614d7a.jpg",
-    "static/media/high-angle-friends-with-face-mask-concept.jpg": "/wp-content/reactpress/apps/landingpage/static/media/high-angle-friends-with-face-mask-concept.363ed92f64285d88e0c7.jpg",
-    "static/media/blackkid.jpg": "/wp-content/reactpress/apps/landingpage/static/media/blackkid.116ea4b8e1805cf17795.jpg",
-    "static/media/africanboy3.jpg": "/wp-content/reactpress/apps/landingpage/static/media/africanboy3.df7b815b6ecbb873b666.jpg",
     "static/media/vp.png": "/wp-content/reactpress/apps/landingpage/static/media/vp.f4a917a2ac538070a541.png",
     "static/media/matilda.png": "/wp-content/reactpress/apps/landingpage/static/media/matilda.03670cf14275ccba980e.png",
     "static/media/agric.jpg": "/wp-content/reactpress/apps/landingpage/static/media/agric.044c45cbcf4302829e2e.jpg",
     "static/media/landingimage3.JPG": "/wp-content/reactpress/apps/landingpage/static/media/landingimage3.22023046ce1225ebe49c.JPG",
     "static/media/quen.png": "/wp-content/reactpress/apps/landingpage/static/media/quen.28137ada682348bdbf92.png",
     "static/media/subi.png": "/wp-content/reactpress/apps/landingpage/static/media/subi.87df9af5bbb18f854d05.png",
-    "static/media/landingimage10.jpeg": "/wp-content/reactpress/apps/landingpage/static/media/landingimage10.7bbb14261e7ea1ddca42.jpeg",
     "static/media/atuba.png": "/wp-content/reactpress/apps/landingpage/static/media/atuba.31388fc8f8aa524d9d51.png",
     "static/media/studentdistribution.jpg": "/wp-content/reactpress/apps/landingpage/static/media/studentdistribution.a02a0314c4a595e23387.jpg",
     "static/media/kidsmaterials.jpg": "/wp-content/reactpress/apps/landingpage/static/media/kidsmaterials.ea935cad6551baa0c922.jpg",
@@ -82,12 +77,12 @@
     "static/media/justice.png": "/wp-content/reactpress/apps/landingpage/static/media/justice.0089c6ce7d4de82d731f.png",
     "static/media/revicons.woff": "/wp-content/reactpress/apps/landingpage/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/wp-content/reactpress/apps/landingpage/index.html",
-    "main.b66a91a9.css.map": "/wp-content/reactpress/apps/landingpage/static/css/main.b66a91a9.css.map",
-    "main.d8592cbd.js.map": "/wp-content/reactpress/apps/landingpage/static/js/main.d8592cbd.js.map",
+    "main.3f770484.css.map": "/wp-content/reactpress/apps/landingpage/static/css/main.3f770484.css.map",
+    "main.3b1d6135.js.map": "/wp-content/reactpress/apps/landingpage/static/js/main.3b1d6135.js.map",
     "453.708e38c1.chunk.js.map": "/wp-content/reactpress/apps/landingpage/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b66a91a9.css",
-    "static/js/main.d8592cbd.js"
+    "static/css/main.3f770484.css",
+    "static/js/main.3b1d6135.js"
   ]
 }
