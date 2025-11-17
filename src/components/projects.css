@@ -1,0 +1,106 @@
+.projectSection{
+    display: flex;
+    background-color: var(--secondary-color);
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+.projectLeftSection{
+    width: 100%;
+    padding-left: 20px;
+    text-align: left;
+}
+.projectSectionTitle{
+    color: var(--primary-color);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.projectsSection{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: space-around;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    justify-content: space-between;
+    color: black;
+    margin-top: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.project h5{
+    font-size: 20px;
+    font-family: "Roboto Bold";
+    background-color: rgb(255, 255, 255,0.6);
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+.project p{
+    font-size: 16px;
+    font-family: "Roboto Medium";
+    color: white;
+    background-color: rgb(0, 0, 0,0.5);
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    width: 300px;
+}
+.project button{
+    background-color: white;
+    color: red;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.project button:hover{
+    background-color: red;
+    color: white;
+    transform: scaleX(10px);
+}
+#proj1{
+    background-image: url("../images/studentdistribution.jpg");
+}
+#proj2{
+    background-image: url("../images/farmerdistribution.jpg");
+}
+#proj3{
+    background-image: url("../images/fooddistribution.jpg");
+}
+
+@media screen and (max-width: 1040px){
+    .projectLeftSection{
+        width: 95%;
+    }
+    .projectsSection{
+        align-items: center;
+        justify-content: space-around;
+    }
+    .project{
+        width: 450px;
+        height: 200px;
+    }
+    
+}
+@media screen and (max-width:660px){
+    .projectsSection{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .project{
+        width: 100%;
+        height: 250px;
+        
+    }
+    .projectLeftSection{
+        padding-left: 0px;
+    }
+}
