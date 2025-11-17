@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/cysd/static/css/main.6bd3ae08.css",
-    "main.js": "/cysd/static/js/main.efbec636.js",
+    "main.css": "/cysd/static/css/main.d7454f6c.css",
+    "main.js": "/cysd/static/js/main.f689a594.js",
     "static/js/453.708e38c1.chunk.js": "/cysd/static/js/453.708e38c1.chunk.js",
+    "static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.jpg": "/cysd/static/media/team-leader-sharing-high-five-with-her-colleague-after-litter-cleanup-activity.9eed37bf04b0bf6891a7.jpg",
     "static/media/africanboy4.jpg": "/cysd/static/media/africanboy4.94199e7a38d658f35464.jpg",
     "static/media/lpimg.png": "/cysd/static/media/lpimg.25154290d1f16cbbfe5b.png",
     "static/media/stafftable.jpg": "/cysd/static/media/stafftable.423645a03515febf6a96.jpg",
+    "static/media/top-view-childs-feet-around-football-ball.jpg": "/cysd/static/media/top-view-childs-feet-around-football-ball.96c36e599ef529614d7a.jpg",
+    "static/media/high-angle-friends-with-face-mask-concept.jpg": "/cysd/static/media/high-angle-friends-with-face-mask-concept.363ed92f64285d88e0c7.jpg",
+    "static/media/blackkid.jpg": "/cysd/static/media/blackkid.116ea4b8e1805cf17795.jpg",
+    "static/media/africanboy3.jpg": "/cysd/static/media/africanboy3.df7b815b6ecbb873b666.jpg",
     "static/media/vp.png": "/cysd/static/media/vp.f4a917a2ac538070a541.png",
     "static/media/matilda.png": "/cysd/static/media/matilda.03670cf14275ccba980e.png",
     "static/media/agric.jpg": "/cysd/static/media/agric.044c45cbcf4302829e2e.jpg",
@@ -77,12 +82,12 @@
     "static/media/justice.png": "/cysd/static/media/justice.0089c6ce7d4de82d731f.png",
     "static/media/revicons.woff": "/cysd/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cysd/index.html",
-    "main.6bd3ae08.css.map": "/cysd/static/css/main.6bd3ae08.css.map",
-    "main.efbec636.js.map": "/cysd/static/js/main.efbec636.js.map",
+    "main.d7454f6c.css.map": "/cysd/static/css/main.d7454f6c.css.map",
+    "main.f689a594.js.map": "/cysd/static/js/main.f689a594.js.map",
     "453.708e38c1.chunk.js.map": "/cysd/static/js/453.708e38c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bd3ae08.css",
-    "static/js/main.efbec636.js"
+    "static/css/main.d7454f6c.css",
+    "static/js/main.f689a594.js"
   ]
 }
