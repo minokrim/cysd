@@ -1,4 +1,3 @@
-import React from "react";
 import "./whatwedo.css"
 import marketwomen from "../images/agric.jpg"
 import education from "../images/education.png"

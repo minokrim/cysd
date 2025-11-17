@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import { useState } from "react";
 import "./aboutus.css"
 import Nav from "../components/nav";
 import Footer from "../components/footer";
@@ -14,17 +14,17 @@ import axios from "axios";
 export default function Aboutus(){
     const [team,setTeam]=useState([]);
 
-    function getstaffdata(){
-    axios.get('https://cysdcam.org/wp-json/wp/v2/posts?slug=Team')
-    .then((res)=>{
-        const data=JSON.parse(res.data[0].acf.children)
-        setTeam(data);
-    })
-      }
+//     function getstaffdata(){
+//     axios.get('https://cysdcam.org/wp-json/wp/v2/posts?slug=Team')
+//     .then((res)=>{
+//         const data=JSON.parse(res.data[0].acf.children)
+//         setTeam(data);
+//     })
+//       }
 
-          useEffect(() => {
-        getstaffdata()
-  }, []);
+//           useEffect(() => {
+//         getstaffdata()
+//   }, []);
 
 
     function renderStaff(staff){
@@ -55,7 +55,7 @@ export default function Aboutus(){
             </section>
 
             <section className="missionBody">
-                <img src="https://cysdcam.org/wp-content/uploads/2025/07/africanboy4.94199e7a38d658f35464-scaled.jpg" alt="" fetchpriority="high" loading="eager"/>
+                <img src={africanboy} alt="" fetchpriority="high" loading="eager"/>
                 <section className="missionAndVision">
                 <div className="mission">
                     <p>OUR MISSION</p>
@@ -81,7 +81,6 @@ export default function Aboutus(){
                         <li>supporting development in rural communities. </li>
                 </div>
             </section>
-            <Founder/>
             <section className="chart">
                 <h2>Meet Our Team</h2>
                 <p>At the heart of our mission is a dedicated team of passionate professionals committed to driving positive change in our communities. Each member brings a unique blend of skills, experience, and a deep commitment to our vision of empowering individuals through education, development, and sustainability. Together, we work tirelessly to create opportunities, foster growth, and make a lasting impact on the lives we touch. Meet the people who are turning our vision into reality, one step at a time.</p>

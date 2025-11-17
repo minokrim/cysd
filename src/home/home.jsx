@@ -32,7 +32,7 @@ export default function Body(){
     return <div className="homeBody">
         <Nav/>
         <section className="landingImage">
-            <img src="https://cysdcam.org/wp-content/uploads/2025/07/lpimg.webp" alt="smiling children" fetchpriority="high" loading="eager"/>
+            <img src={landingImage8} alt="smiling children" fetchpriority="high" loading="eager"/>
             <section className="descHolder">
             <h2 className="imageDesc"><span ref={el} /></h2>
             </section>

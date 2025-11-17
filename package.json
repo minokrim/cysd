@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "homepage": "https://github.com/minokrim/cysd.git",
-=======
-  "homepage": "/wp-content/reactpress/apps/landingpage/",
->>>>>>> 07bb9ed92f962e8768e0b4d3dc35f12b7f5d01f5
+  "homepage": "https://minokrim.github.io/cysd/",
   "name": "cysd",
   "version": "0.1.0",
   "private": true,
