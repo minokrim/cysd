@@ -95,7 +95,6 @@ export default function Aboutus(){
                         </div>
                     ))}
                 </div>
-                <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/stafftable-scaled.jpg" alt="CYMD structure organisation" className="structure" />
             </section>
             <Contribute/>
         </div>
