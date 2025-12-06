@@ -31,6 +31,6 @@ export default function Donationbreakdwon(){
                 </div>
             </section>
         </section>
-        <img src={chart} alt="" />
+        <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/chart.jpeg" alt="" />
     </div>
 }
