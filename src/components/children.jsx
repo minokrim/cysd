@@ -11,13 +11,17 @@ export default function Children(){
     function handleMouseLeave(){
         setButtonState(false)
     }
-              function getChildrenData(){
-    axios.get('https://cysdcam.org/wp-json/wp/v2/posts?slug=children')
-    .then((res)=>{
-        const data=JSON.parse(res.data[0].acf.children)
-        setChildren(data);
-    })
-      }
+    // function getChildrenData(){
+    // axios.get('https://cysdcam.org/wp-json/wp/v2/posts?slug=children')
+    // .then((res)=>{
+    //     const data=JSON.parse(res.data[0].acf.children)
+    //     setChildren(data);
+    // })
+    //   }
+
+    function getChildrenData(){
+        setChildren(ChildrenData);
+    }
 
           useEffect(() => {
         getChildrenData()
@@ -29,7 +33,7 @@ export default function Children(){
             <div className="children-container">
             {children.map((kid,index)=>(
                 <div key={index} className="children-details">
-                    <img src={`${kid.photo}`} alt="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
+                    <img src={`${kid.image}`} alt="" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
                     <p className="sponsorButton">{buttonState===true&&(<p>SPONSOR</p>)}</p>
                     <div>
                     <h3>Name: {kid.name}</h3>

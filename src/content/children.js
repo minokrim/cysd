@@ -3,7 +3,7 @@ const ChildrenData=[
         id:1,
         name:"RECHARD NGWE",
         Age:13,
-        image:require("../images/Rechard-.jpg")
+        image:("https://www.cysdcam.org/wp-content/uploads/2025/11/Rechard-.jpg")
     },
     {
         id:2,

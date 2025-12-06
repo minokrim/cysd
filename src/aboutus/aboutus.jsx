@@ -55,7 +55,7 @@ export default function Aboutus(){
             </section>
 
             <section className="missionBody">
-                <img src={africanboy} alt="" fetchpriority="high" loading="eager"/>
+                <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/africanboy4-scaled.jpg" alt="" fetchpriority="high" loading="eager"/>
                 <section className="missionAndVision">
                 <div className="mission">
                     <p>OUR MISSION</p>
@@ -68,7 +68,7 @@ export default function Aboutus(){
                 </section>
             </section>
             <section className="cysdActivities">
-                <img src={vocational} alt="" />
+                <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/vocational.jpeg" alt="" />
                 
                 <div className="cysdActivitiesRight">
                     <h2>CYSD carries out its mission on behalf of its members by:</h2>
@@ -95,7 +95,7 @@ export default function Aboutus(){
                         </div>
                     ))}
                 </div>
-                <img src={structure} alt="CYMD structure organisation" className="structure" />
+                <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/stafftable-scaled.jpg" alt="CYMD structure organisation" className="structure" />
             </section>
             <Contribute/>
         </div>

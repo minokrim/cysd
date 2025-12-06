@@ -32,7 +32,7 @@ export default function Body(){
     return <div className="homeBody">
         <Nav/>
         <section className="landingImage">
-            <img src={landingImage8} alt="smiling children" fetchpriority="high" loading="eager"/>
+            <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/lpimg.png" alt="smiling children" fetchpriority="high" loading="eager"/>
             <section className="descHolder">
             <h2 className="imageDesc"><span ref={el} /></h2>
             </section>
@@ -52,7 +52,7 @@ export default function Body(){
             <p id="aboutDesc">Centre for Youth and Sustainable Development was founded in 2019 as a non-profit community-based organization. Our organization was founded to combat the high rate of secondary school dropout among young boys and girls in the Munyenge community. This alarming trend contributes to elevated rates of early pregnancy and childbearing among teenage girls, gender-based violence as well as increased susceptibility to drug abuse among young males.</p>
             <Link to="/about"><button>Learn More</button></Link>
             </section>
-            <img src={landingImage1} alt="group of students" className="homeSectionImages"/>
+            <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/kidsmaterials.jpg" alt="group of students" className="homeSectionImages"/>
         </section>
         <section className="whatWeDoSection">
             <div className="whatWeDoLeftSection">
@@ -63,21 +63,21 @@ export default function Body(){
             <h2>Some Services we provide for the community</h2>
             <p id="whatWeDoDesc">CYSD aims to break the cycle of educational inequality by addressing low reading proficiency in primary schools, the root cause of high secondary school dropout rates in rural communities in the Muyuka subdivison.</p>
             <section className="whatWeDo">
-                <img src={education} alt="education icon" />
+                <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/education.png" alt="education icon" />
                 <div>
                     <h4>Education</h4>
                     <p>CYSD has established temporary learning spaces and reopened formal schools in villages. These efforts have provided educational opportunities to over 1,700 internally displaced children.</p>
                 </div>
             </section>
             <section className="whatWeDo">
-                <img src={protection} alt="protection icon" />
+                <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/protection.png" alt="protection icon" />
                 <div>
                     <h4>Protection</h4>
                     <p>CYSD works with children in communities impacted by the ongoing crisis in the Anglophone regions of Cameroon to help them heal from the trauma of witnessing unimaginable acts of violence.</p>
                 </div>
             </section>
             <section className="whatWeDo">
-                <img src={humanitarian} alt="Humanitarian icon" />
+                <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/world-humanitarian-day.png" alt="Humanitarian icon" />
                 <div>
                     <h4>Humanitarian assistance</h4>
                     <p>CYSD-Cameroon initiated the Humanitarian Response program, a leading initiative dedicated to identifying and aiding Internally Displaced Persons and their host communities.</p>
@@ -86,7 +86,7 @@ export default function Body(){
             <Link to="/whatwedo"><button>Learn More</button></Link>
             </div>
             <div className="whatwedoImageContainer">
-            <img src={landingImage2} alt="" className="homeSectionImages whatWeDoImage"/>
+            <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/landingimage3.jpg" alt="" className="homeSectionImages whatWeDoImage"/>
             </div>
             </section>
         <Donationbreakdwon/>

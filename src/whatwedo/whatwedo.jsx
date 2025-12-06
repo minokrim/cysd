@@ -59,7 +59,7 @@ export default function Whatwedo(){
         <Link to="https://paypal.me/cysdcam?country.x=LS&locale.x=en_US" target="_blank"><button>Donate</button></Link>
         </section>
         <section className="farmerimagecontainer">
-        <img src={marketwomen} alt="farmers working" />
+        <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/agric.jpg" alt="farmers working" />
         </section>
         </section>
         <section className="documentary">
@@ -69,27 +69,27 @@ export default function Whatwedo(){
         <section className="whatwedo-services">
             <section className="service-section">
                 <div className="serv">
-                    <img src={education} alt="eduvatio icon" />
+                    <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/education.png" alt="eduvatio icon" />
                     <p>CYSD has created temporary learning spaces and reopened schools, providing education to over 1,700 displaced children.</p>
                 </div>
                 <div className="serv">
-                    <img src={protection} alt="protection icon" />
+                    <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/protection.png" alt="protection icon" />
                     <p>CYSD supports children in crisis-affected Anglophone regions of Cameroon, helping them heal from the trauma of witnessing violence.</p>
                 </div>
                 <div className="serv">
-                    <img src={humanitarian} alt="humnaitarian icon" />
+                    <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/world-humanitarian-day.png" alt="humnaitarian icon" />
                     <p>CYSD-Cameroon launched the Humanitarian Response program to identify and support Internally Displaced Persons and their host communities.</p>
                 </div>
                 <div className="serv">
-                    <img src={health} alt="health icon" />
+                    <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/health.png" alt="health icon" />
                     <p>We implement community-driven projects to enhance health services for children, women, and indigenous populations through training, and education support.</p>
                 </div>
                 <div className="serv">
-                    <img src={right} alt="rights icon" />
+                    <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/civil-rights.png" alt="rights icon" />
                     <p>CYSD promotes gender equality in Cameroon by fighting gender-based violence, advancing sexual health, empowering women, and supporting youth civic education.</p>
                 </div>
                 <div className="serv">
-                    <img src={empowerment} alt="empowerment icon" />
+                    <img src="https://www.cysdcam.org/wp-content/uploads/2025/11/empowerment-1.png" alt="empowerment icon" />
                     <p>We offer vocational training to marginalized individuals, focusing on fields like IT and construction, to promote self-reliance and poverty alleviation.</p>
                 </div>
             </section>
