@@ -1,0 +1,118 @@
+.founderMain{
+    background-color: var(--secondary-color);
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.founderBody{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 100px 20px;
+    align-items: center;
+}
+.founderBody>p{
+    color: var(--primary-color);
+    font-weight: lighter;
+    font-size: 16px;
+    width: 70%;
+}
+.founder{
+    display: flex;
+    color: var(--primary-color);
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 40em;
+}
+.founderDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.founderDetails img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+.founderDetails h3{
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.founderDetails p{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: "Roboto Regular";
+}
+.founderSocials{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.founderSocials img{
+    width: auto;
+    height: 30px;
+}
+.founderAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+.founderAbout h4{
+    font-size: 24px;
+    font-family: "Roboto Medium";
+}
+.founderAbout p{
+    width: 95%;
+    font-size: 16px;
+    font-family: "Roboto Regular";
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width:770px) {
+    .founder{
+        flex-direction: column;
+        height: 100%;
+    }
+    .founderBody>p{
+        width: 100%;
+    }
+    .founderAbout{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .founderBody{
+        padding: 0px 10px 50px 10px;
+    }
+    .founderBody h2{
+        font-size: 25px;
+    }
+    .founderBody p{
+        width: 100%;
+    }
+    .founder{
+        flex-direction: column;
+    }
+    .founderDetails{
+        margin-top: 2em;
+    }
+    .founderAbout{
+        padding-left: 10px;
+    }
+    .founderAbout p{
+        word-break: 100%;
+        margin-left: 0px;
+    }
+}
