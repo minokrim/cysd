@@ -213,7 +213,7 @@
         display: block;
         position: relative;
         width: auto;
-        height: 25px;
+        height: 2em;
         z-index: 3;
     }
     .mobileNavOptions{
@@ -226,6 +226,7 @@
         gap: 50px;
         padding: 80px 0px 80px 20px;
         text-align: center;
+        height: screen;
     }
     .Link{
         border: 1px solid white;
